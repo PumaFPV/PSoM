@@ -328,8 +328,20 @@
       ""
     ],
     [
+      "d889dcd3-4716-4703-92d5-00b214989b25",
+      "100_Connectors"
+    ],
+    [
       "a8f40f14-1954-4df1-a27b-4ef4decd9fbc",
-      "1S_Charger"
+      "200_1S_Charger"
+    ],
+    [
+      "fe763027-4af8-431c-8c5f-e79d70169837",
+      "300_Power"
+    ],
+    [
+      "f80064c8-41de-40ac-b331-44fdb69dca18",
+      "400_ESP32"
     ]
   ],
   "text_variables": {}
