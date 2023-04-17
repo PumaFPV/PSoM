@@ -513,10 +513,6 @@
     (stroke (width 0) (type default))
     (uuid 1e16b513-2ad5-46d2-9207-80f15c876e11)
   )
-  (wire (pts (xy 265.43 48.26) (xy 265.43 46.99))
-    (stroke (width 0) (type default))
-    (uuid 1e96039a-1462-47ad-a072-8a7d5a5a66be)
-  )
   (wire (pts (xy 106.68 129.54) (xy 106.68 132.08))
     (stroke (width 0) (type default))
     (uuid 1f72ad06-e0fd-472b-b96f-93cf2f1f418f)
@@ -545,13 +541,17 @@
     (stroke (width 0) (type default))
     (uuid 46bc2072-d215-4391-a549-f1bfac34a917)
   )
-  (wire (pts (xy 266.7 39.37) (xy 265.43 39.37))
+  (wire (pts (xy 269.24 45.72) (xy 266.7 45.72))
     (stroke (width 0) (type default))
-    (uuid 46f53041-a4ea-4835-bc86-a6743cc86fb7)
+    (uuid 46f0f517-7a7c-43b5-b067-0848edef863c)
   )
   (wire (pts (xy 109.22 106.68) (xy 114.3 106.68))
     (stroke (width 0) (type default))
     (uuid 4a780b3e-feaf-4ce1-9634-e76b9d36cf89)
+  )
+  (wire (pts (xy 269.24 38.1) (xy 266.7 38.1))
+    (stroke (width 0) (type default))
+    (uuid 4dd21526-432b-4fe7-823d-ce20c4cd4b10)
   )
   (wire (pts (xy 114.3 73.66) (xy 114.3 76.2))
     (stroke (width 0) (type default))
@@ -565,13 +565,25 @@
     (stroke (width 0) (type default))
     (uuid 5be91c3f-d4f3-48aa-96b6-9f430cabfe27)
   )
+  (wire (pts (xy 266.7 38.1) (xy 266.7 35.56))
+    (stroke (width 0) (type default))
+    (uuid 5de41fab-c3cf-4cc7-8cb7-78e2dbadea66)
+  )
   (wire (pts (xy 91.44 129.54) (xy 91.44 132.08))
     (stroke (width 0) (type default))
     (uuid 61410de0-f8aa-413c-8693-09faac3eb9ab)
   )
+  (wire (pts (xy 266.7 45.72) (xy 266.7 48.26))
+    (stroke (width 0) (type default))
+    (uuid 6a5cc3bd-2731-4ece-95f7-6dca3e495f5a)
+  )
   (wire (pts (xy 213.36 78.74) (xy 218.44 78.74))
     (stroke (width 0) (type default))
     (uuid 6e15079c-8bdf-49b5-8a71-1427e5ab17df)
+  )
+  (wire (pts (xy 266.7 30.48) (xy 266.7 27.94))
+    (stroke (width 0) (type default))
+    (uuid 727e34b8-7d10-44b2-9be3-21df6b094244)
   )
   (wire (pts (xy 93.98 83.82) (xy 93.98 88.9))
     (stroke (width 0) (type default))
@@ -601,6 +613,10 @@
     (stroke (width 0) (type default))
     (uuid 9666d66d-db77-4635-aa26-e711e46a3781)
   )
+  (wire (pts (xy 269.24 30.48) (xy 266.7 30.48))
+    (stroke (width 0) (type default))
+    (uuid 98e50d35-5e55-4c39-8496-e2a93b8b36bf)
+  )
   (wire (pts (xy 99.06 63.5) (xy 106.68 63.5))
     (stroke (width 0) (type default))
     (uuid 9adec388-5293-4ded-bde0-7f7cf73b92b1)
@@ -624,6 +640,10 @@
   (wire (pts (xy 124.46 93.98) (xy 127 93.98))
     (stroke (width 0) (type default))
     (uuid a95fae06-5335-4528-b2d9-1199c8badcae)
+  )
+  (wire (pts (xy 114.3 109.22) (xy 114.3 106.68))
+    (stroke (width 0) (type default))
+    (uuid afd136f2-4db0-4e9f-a30d-ad5dd04622c3)
   )
   (wire (pts (xy 124.46 91.44) (xy 127 91.44))
     (stroke (width 0) (type default))
@@ -649,33 +669,21 @@
     (stroke (width 0) (type default))
     (uuid d176581a-19f9-46e9-9d28-2a1a8acd1993)
   )
+  (wire (pts (xy 266.7 22.86) (xy 266.7 20.32))
+    (stroke (width 0) (type default))
+    (uuid d342beb7-a0c0-423c-a263-1b6757b48fb4)
+  )
   (wire (pts (xy 223.52 99.06) (xy 223.52 101.6))
     (stroke (width 0) (type default))
     (uuid d46e1937-5747-43a8-a40d-0241467e206d)
-  )
-  (wire (pts (xy 265.43 39.37) (xy 265.43 38.1))
-    (stroke (width 0) (type default))
-    (uuid d7147710-8f9f-4d66-a41e-7d4cc17142f9)
   )
   (wire (pts (xy 213.36 81.28) (xy 213.36 78.74))
     (stroke (width 0) (type default))
     (uuid daffbfbd-5ad8-431e-a45e-611ce122cff1)
   )
-  (wire (pts (xy 265.43 22.86) (xy 265.43 24.13))
-    (stroke (width 0) (type default))
-    (uuid dc496e59-e605-44c2-89e3-f725d6806e3f)
-  )
-  (wire (pts (xy 265.43 30.48) (xy 265.43 31.75))
-    (stroke (width 0) (type default))
-    (uuid ddfb374e-33c9-4d0d-906e-637f5260ccfc)
-  )
   (wire (pts (xy 132.08 91.44) (xy 132.08 88.9))
     (stroke (width 0) (type default))
     (uuid dfbd6bf2-40b1-4a39-b437-d2dd20fd4209)
-  )
-  (wire (pts (xy 265.43 31.75) (xy 266.7 31.75))
-    (stroke (width 0) (type default))
-    (uuid e0479973-a117-4df1-ba39-ff5f096198de)
   )
   (wire (pts (xy 104.14 109.22) (xy 106.68 109.22))
     (stroke (width 0) (type default))
@@ -697,13 +705,9 @@
     (stroke (width 0) (type default))
     (uuid f20b64d0-9409-4a98-92d5-c4dda33f228e)
   )
-  (wire (pts (xy 265.43 46.99) (xy 266.7 46.99))
+  (wire (pts (xy 269.24 22.86) (xy 266.7 22.86))
     (stroke (width 0) (type default))
-    (uuid f2160f12-86b1-4385-9072-725d6eb48cb0)
-  )
-  (wire (pts (xy 265.43 24.13) (xy 266.7 24.13))
-    (stroke (width 0) (type default))
-    (uuid f5b268e5-a3c2-43cb-a646-f6303af290c8)
+    (uuid f56e7a19-436c-4df0-a47c-2aee072521b6)
   )
   (wire (pts (xy 106.68 71.12) (xy 106.68 76.2))
     (stroke (width 0) (type default))
@@ -771,6 +775,14 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3594b3c5-4d14-4a26-a27c-60be4871e868)
   )
+  (label "VBUS" (at 266.7 30.48 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3b50526d-db5f-4415-9e39-3a6b447d91d1)
+  )
+  (label "VBUS" (at 91.44 132.08 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 3ccb4e12-df65-43c3-8d8c-d5e870d2c63e)
+  )
   (label "VSYS" (at 213.36 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3f5d30a2-2a13-4d7c-b71b-04d44b2b5bd2)
@@ -803,6 +815,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cd6443fd-a640-4d56-89f5-f2034460fd8c)
   )
+  (label "VBAT" (at 266.7 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid d5020268-8947-42ec-ad7f-81f62a994e9a)
+  )
   (label "VBAT" (at 93.98 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d727403a-5fa6-462b-8ec5-9d43310cbce5)
@@ -823,20 +839,24 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fa67ff32-6b3c-414e-abad-78f5e163f91a)
   )
+  (label "VSYS" (at 266.7 22.86 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid fc3340d8-74f7-4441-8dce-f9f7b8009c72)
+  )
 
-  (hierarchical_label "VBAT" (shape bidirectional) (at 266.7 39.37 0) (fields_autoplaced)
+  (hierarchical_label "VBAT" (shape bidirectional) (at 269.24 38.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 50e31681-c1ec-4d55-ae3d-9db115ba5ad9)
   )
-  (hierarchical_label "VSYS" (shape output) (at 266.7 24.13 0) (fields_autoplaced)
+  (hierarchical_label "VSYS" (shape output) (at 269.24 22.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 60c55354-3997-4b07-9d7d-450d77e12440)
   )
-  (hierarchical_label "GND" (shape passive) (at 266.7 46.99 0) (fields_autoplaced)
+  (hierarchical_label "GND" (shape passive) (at 269.24 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 91b3c623-f212-4bbd-8cfd-a617432346c6)
   )
-  (hierarchical_label "VBUS" (shape input) (at 266.7 31.75 0) (fields_autoplaced)
+  (hierarchical_label "VBUS" (shape input) (at 269.24 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid da876866-0dec-467a-9116-1facac5302d1)
   )
@@ -858,7 +878,7 @@
     )
     (pin "1" (uuid 579e6085-7356-4c08-9323-f916facc8d83))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0205") (unit 1)
         )
@@ -871,24 +891,24 @@
     )
   )
 
-  (symbol (lib_id "Component lib:VBAT") (at 265.43 38.1 0) (unit 1)
+  (symbol (lib_id "Component lib:VBAT") (at 266.7 35.56 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 072b6997-d35a-4ac0-91c8-d8237d54aff9)
-    (property "Reference" "#VBAT0201" (at 270.51 33.02 0)
+    (property "Reference" "#VBAT0201" (at 271.78 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VBAT" (at 262.89 34.29 0)
+    (property "Value" "VBAT" (at 261.62 33.02 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 265.43 38.1 0)
+    (property "Footprint" "" (at 266.7 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 265.43 38.1 0)
+    (property "Datasheet" "" (at 266.7 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 3b437c66-319e-4f76-a159-93bc30d5f942))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VBAT0201") (unit 1)
         )
@@ -901,24 +921,24 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 265.43 30.48 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "power:VBUS") (at 266.7 27.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 1069bbe7-5ea7-4269-90a7-0a41267f941e)
-    (property "Reference" "#PWR0201" (at 265.43 34.29 0)
+    (property "Reference" "#PWR0201" (at 266.7 31.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VBUS" (at 265.43 26.9042 0)
+    (property "Value" "VBUS" (at 264.16 25.4 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 265.43 30.48 0)
+    (property "Footprint" "" (at 266.7 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 265.43 30.48 0)
+    (property "Datasheet" "" (at 266.7 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9454a9f0-255e-41bb-9231-6eaf5fe36742))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0201") (unit 1)
         )
@@ -949,7 +969,7 @@
     (pin "1" (uuid c7a3530f-50bd-4e54-9fad-2703a0428889))
     (pin "2" (uuid 8b62623d-5089-40dd-a1b1-861ad8103c54))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R202") (unit 1)
         )
@@ -980,7 +1000,7 @@
     (pin "1" (uuid eec03dbc-46bf-49a1-8277-9c1fdd4724dc))
     (pin "2" (uuid 6c2683b9-2d14-4e74-af82-dea61054aaeb))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R203") (unit 1)
         )
@@ -1010,7 +1030,7 @@
     )
     (pin "1" (uuid 4ae1d5f1-9f01-4f66-bf3e-64e2905a6e53))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "TP201") (unit 1)
         )
@@ -1040,7 +1060,7 @@
     )
     (pin "1" (uuid a66b3686-9d61-4cde-ba6e-c0c06e87197a))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0121") (unit 1)
         )
@@ -1070,7 +1090,7 @@
     )
     (pin "" (uuid 62f4b2be-edfa-40a9-928f-4abf725bd075))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VSYS0105") (unit 1)
         )
@@ -1134,7 +1154,7 @@
     (pin "8" (uuid 3e87e9d5-fec0-4627-ba91-58ee482f76f7))
     (pin "9" (uuid 004d36df-d133-44b9-83f7-a7e72ac56f14))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "U201") (unit 1)
         )
@@ -1165,7 +1185,7 @@
     (pin "1" (uuid 33802902-0712-42e8-b712-cd55b446ac7c))
     (pin "2" (uuid 6bb06d00-60bd-45e1-9908-5a4f20197f22))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "C203") (unit 1)
         )
@@ -1195,7 +1215,7 @@
     )
     (pin "1" (uuid af396fab-753a-4710-b1f5-36d34097949c))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0209") (unit 1)
         )
@@ -1225,7 +1245,7 @@
     )
     (pin "1" (uuid 79af0a40-56c4-4bf3-bc97-b93b26377edd))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0208") (unit 1)
         )
@@ -1255,7 +1275,7 @@
     )
     (pin "" (uuid dacb0eb9-a81d-48d8-aadc-522fce10ed93))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VBAT0103") (unit 1)
         )
@@ -1285,7 +1305,7 @@
     )
     (pin "1" (uuid 6171c566-e4f5-4dbf-9363-b0882cb17b01))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0206") (unit 1)
         )
@@ -1315,7 +1335,7 @@
     )
     (pin "1" (uuid 083e8b04-3061-43e3-afa5-be1aaa67b82d))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0124") (unit 1)
         )
@@ -1346,7 +1366,7 @@
     (pin "1" (uuid 96ed2122-4d29-4a4d-9605-330ce97565a3))
     (pin "2" (uuid 7e6c73fe-220f-4be7-8665-031ba0e3d3b7))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R207") (unit 1)
         )
@@ -1376,7 +1396,7 @@
     )
     (pin "" (uuid 571a55dd-d106-46cf-8d64-28730459c314))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VSYS0201") (unit 1)
         )
@@ -1407,7 +1427,7 @@
     (pin "1" (uuid 38eaabd2-879d-44c2-a76d-b64f442a5199))
     (pin "2" (uuid 436e0905-7559-4234-9a7f-052c7188b3ac))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "C202") (unit 1)
         )
@@ -1420,24 +1440,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 265.43 48.26 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 266.7 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 612b8fbc-9c05-4fb1-90ad-04a14dd79f3e)
-    (property "Reference" "#PWR0202" (at 265.43 54.61 0)
+    (property "Reference" "#PWR0202" (at 266.7 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 265.43 52.7034 0)
+    (property "Value" "GND" (at 266.7 52.7034 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 265.43 48.26 0)
+    (property "Footprint" "" (at 266.7 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 265.43 48.26 0)
+    (property "Datasheet" "" (at 266.7 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8ec75dbf-11a3-4932-a3e9-cb63b5b90078))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0202") (unit 1)
         )
@@ -1468,7 +1488,7 @@
     (pin "1" (uuid ad271974-4c80-489f-b475-a43f207c69d8))
     (pin "2" (uuid 7e9a5924-17f5-4de8-8d40-5f4d7445b0d7))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R201") (unit 1)
         )
@@ -1498,7 +1518,7 @@
     )
     (pin "1" (uuid 233e0c40-c84d-4a7a-abfa-6aa87d60302d))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0123") (unit 1)
         )
@@ -1529,7 +1549,7 @@
     (pin "1" (uuid ac7a3ed1-06ba-4cfd-81c2-e09313ec9614))
     (pin "2" (uuid 6c319d93-f282-4bc3-a86a-276260933e39))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "D201") (unit 1)
         )
@@ -1559,7 +1579,7 @@
     )
     (pin "1" (uuid b4b12f87-c22a-465d-a79f-a11d0217e4d9))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0207") (unit 1)
         )
@@ -1572,24 +1592,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 114.3 106.68 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 114.3 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 86732a9f-4a9a-4183-9957-438f0f22ea2a)
-    (property "Reference" "#PWR0210" (at 114.3 113.03 0)
+    (property "Reference" "#PWR0210" (at 114.3 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 114.3 111.1234 0)
+    (property "Value" "GND" (at 114.3 113.6634 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 114.3 106.68 0)
+    (property "Footprint" "" (at 114.3 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 114.3 106.68 0)
+    (property "Datasheet" "" (at 114.3 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e5a1a4d3-8f56-4519-80cb-c64cc34504e7))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0210") (unit 1)
         )
@@ -1619,7 +1639,7 @@
     )
     (pin "1" (uuid ceb40311-bc86-477a-9122-4bb70a6a3eab))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0203") (unit 1)
         )
@@ -1649,7 +1669,7 @@
     )
     (pin "1" (uuid db2aac15-a872-416e-b4ca-9fbe0e57d91c))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0122") (unit 1)
         )
@@ -1680,7 +1700,7 @@
     (pin "1" (uuid 2338f7b0-7d42-4502-a44c-2d818ada7019))
     (pin "2" (uuid d2811f40-728b-496f-8ec2-5fc935d9e116))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R204") (unit 1)
         )
@@ -1693,24 +1713,24 @@
     )
   )
 
-  (symbol (lib_id "Component lib:VSYS") (at 265.43 22.86 0) (unit 1)
+  (symbol (lib_id "Component lib:VSYS") (at 266.7 20.32 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid af20413d-d5c2-4c1f-98e3-f05e8d0b26e1)
-    (property "Reference" "#VSYS0108" (at 270.51 17.78 0)
+    (property "Reference" "#VSYS0108" (at 271.78 15.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VSYS" (at 262.89 19.05 0)
+    (property "Value" "VSYS" (at 261.62 17.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 265.43 22.86 0)
+    (property "Footprint" "" (at 266.7 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 265.43 22.86 0)
+    (property "Datasheet" "" (at 266.7 20.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "" (uuid 7559ad33-783d-4109-9e19-2c577fcd6f88))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VSYS0108") (unit 1)
         )
@@ -1741,7 +1761,7 @@
     (pin "1" (uuid f964740a-152e-4902-998b-a6d079d129ed))
     (pin "2" (uuid a6a27096-ea63-48eb-a1d8-7ab1bc1f56df))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R206") (unit 1)
         )
@@ -1772,7 +1792,7 @@
     (pin "1" (uuid 833d7190-44a1-4243-a3f8-1511aaf0b372))
     (pin "2" (uuid 2a12e03f-1b35-4737-9365-cc8aba778014))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "C201") (unit 1)
         )
@@ -1803,7 +1823,7 @@
     (pin "1" (uuid f7e1cfcd-cd54-4a14-a54a-a313777e3909))
     (pin "2" (uuid 23df278e-ff0b-425f-943e-f25812343046))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "R205") (unit 1)
         )
@@ -1833,7 +1853,7 @@
     )
     (pin "" (uuid d74bf1e6-f356-4175-97cd-13ddc7636e50))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VBAT0202") (unit 1)
         )
@@ -1863,7 +1883,7 @@
     )
     (pin "" (uuid 62f60ea8-8815-45ff-be0a-81167e064fe5))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VSYS0107") (unit 1)
         )
@@ -1893,7 +1913,7 @@
     )
     (pin "" (uuid 23ed6ff4-c77f-4c90-b36c-8548109fa6a7))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#VSYS0106") (unit 1)
         )
@@ -1924,7 +1944,7 @@
     (pin "1" (uuid a73fcd2a-5b4b-4dd4-ae24-71a81998f82e))
     (pin "2" (uuid 27e5e514-bd01-437d-9940-4581b908cc2b))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "D202") (unit 1)
         )
@@ -1954,7 +1974,7 @@
     )
     (pin "1" (uuid 93d7e07e-08c1-4619-95ee-c0d7429e0bb6))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/a8f40f14-1954-4df1-a27b-4ef4decd9fbc"
           (reference "#PWR0204") (unit 1)
         )

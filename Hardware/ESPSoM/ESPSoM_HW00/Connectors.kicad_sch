@@ -2022,7 +2022,7 @@
     )
     (pin "" (uuid 6b3f1290-d6dc-4b1e-aac5-3139e1065b5d))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "VSYS01") (unit 1)
         )
@@ -2048,7 +2048,7 @@
     (pin "1" (uuid f61fcf4d-336f-40cf-a23d-05c8a091c4ed))
     (pin "2" (uuid 3ade4c65-ce9c-4d43-a59e-46014c2f6dd4))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "R101") (unit 1)
         )
@@ -2078,7 +2078,7 @@
     )
     (pin "1" (uuid 85572272-35c0-4f63-9f64-40303df767d9))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0106") (unit 1)
         )
@@ -2108,7 +2108,7 @@
     )
     (pin "1" (uuid a9f162eb-228f-4af7-a4cb-4c2f2eaf4786))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR01") (unit 1)
         )
@@ -2207,7 +2207,7 @@
     (pin "8" (uuid e06e9ec5-1c8d-40e0-a430-c645a47da356))
     (pin "9" (uuid 90cf0636-5a9c-4aed-b5cb-563413c36a43))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
           (reference "J1") (unit 1)
         )
@@ -2235,7 +2235,7 @@
     )
     (pin "" (uuid f82d669d-d209-4763-80a5-821dbab57c5b))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#VSYS01") (unit 1)
         )
@@ -2260,7 +2260,7 @@
     )
     (pin "1" (uuid e26a4672-7908-4a45-854a-5fca79af92a0))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0104") (unit 1)
         )
@@ -2290,7 +2290,7 @@
     )
     (pin "1" (uuid 4efc9568-f793-4aed-94ed-d3c99915bd8e))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR05") (unit 1)
         )
@@ -2315,7 +2315,7 @@
     )
     (pin "" (uuid e9763f14-d5b1-48f2-ba3a-6e69f7c03aba))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#VBAT0102") (unit 1)
         )
@@ -2345,7 +2345,7 @@
     )
     (pin "1" (uuid a8bc6aa9-4f13-4839-beca-43a58e43b027))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0101") (unit 1)
         )
@@ -2375,7 +2375,7 @@
     )
     (pin "1" (uuid a36313da-2b32-4b19-9e0f-9d92d7474c8f))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0107") (unit 1)
         )
@@ -2405,7 +2405,7 @@
     )
     (pin "1" (uuid 619864b5-e303-43f8-ab40-27e53bdab0c6))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0118") (unit 1)
         )
@@ -2435,7 +2435,7 @@
     )
     (pin "1" (uuid 308ea27a-eed1-4cd3-b6c9-0c5d32c578e8))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0105") (unit 1)
         )
@@ -2465,7 +2465,7 @@
     )
     (pin "" (uuid b87f14eb-ce61-409c-9b92-61cd79505a89))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#VBAT01") (unit 1)
         )
@@ -2491,7 +2491,7 @@
     (pin "1" (uuid 2b7989b6-45cf-465d-93a6-640219f0c19c))
     (pin "2" (uuid 2242c4fd-8082-43c3-87e0-ff4eba23dd9b))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "R102") (unit 1)
         )
@@ -2521,7 +2521,7 @@
     )
     (pin "1" (uuid 1dce3fbc-d9fb-4fc3-9563-b879b3e078f4))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR02") (unit 1)
         )
@@ -2583,7 +2583,7 @@
     (pin "B8" (uuid a7482efa-20da-4c62-8ee6-39b808d1f27d))
     (pin "B9" (uuid 0f89b653-5e6c-429f-abf0-88be4c5ac9f1))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "J101") (unit 1)
         )
@@ -2613,7 +2613,7 @@
     )
     (pin "1" (uuid 09a3de8b-34e0-4f8c-ade6-7ab864d8e0b8))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR0103") (unit 1)
         )
@@ -2643,7 +2643,7 @@
     )
     (pin "1" (uuid da5ff98d-6dcc-4f0b-bf27-b9df40252964))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR03") (unit 1)
         )
@@ -2668,7 +2668,7 @@
     )
     (pin "1" (uuid dd1bc078-4e9a-4646-a7e4-d1d9ce81fc03))
     (instances
-      (project "untitled"
+      (project "ESPSoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
           (reference "#PWR04") (unit 1)
         )
