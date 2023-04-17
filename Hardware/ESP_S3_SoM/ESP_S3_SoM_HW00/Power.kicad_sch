@@ -5,8 +5,8 @@
   (paper "A4")
 
   (title_block
-    (title "PMK_Keyboard")
-    (date "2023-02-06")
+    (title "PSoM - ESP S3")
+    (date "2023-04-17")
     (rev "HW00")
     (company "PumaCorp")
     (comment 1 "Design by: NdG")
@@ -445,7 +445,7 @@
     )
     (pin "1" (uuid f8712cfd-c553-4232-a627-6ffe8a7d732b))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0303") (unit 1)
         )
@@ -475,7 +475,7 @@
     )
     (pin "1" (uuid f592348f-0d6a-45d5-bd36-d6a5092579e0))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0305") (unit 1)
         )
@@ -505,7 +505,7 @@
     )
     (pin "1" (uuid e821236d-e6c0-465b-ae0a-6f9eee9eaedf))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0301") (unit 1)
         )
@@ -535,7 +535,7 @@
     )
     (pin "" (uuid 6e2bcabe-9e2a-4c15-a7a7-d2592226e66e))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#VSYS0103") (unit 1)
         )
@@ -565,7 +565,7 @@
     )
     (pin "1" (uuid 281e6cf3-2bd2-4d4b-b758-71693dc0e8ee))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0307") (unit 1)
         )
@@ -595,7 +595,7 @@
     )
     (pin "1" (uuid d7066022-0319-4c57-ba2a-b0ec90349853))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0308") (unit 1)
         )
@@ -625,7 +625,7 @@
     )
     (pin "" (uuid b762d1f4-f369-4326-b9a8-4e54418aa1bb))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#VSYS0104") (unit 1)
         )
@@ -679,7 +679,7 @@
     (pin "6" (uuid 3de80903-3a09-42f0-ada1-386376d95d1d))
     (pin "7" (uuid 6f946ad4-15fb-4325-b806-060bad633f08))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "U301") (unit 1)
         )
@@ -709,7 +709,7 @@
     )
     (pin "" (uuid f3cf09b1-9abe-48b4-8461-60131c41c082))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#VSYS0102") (unit 1)
         )
@@ -740,7 +740,7 @@
     (pin "1" (uuid 288d0b60-8e9c-4388-b48a-268fbaae0b70))
     (pin "2" (uuid c75a06ac-a034-43ea-a488-e0ab34e27d5e))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "C302") (unit 1)
         )
@@ -771,7 +771,7 @@
     (pin "1" (uuid 59bb5b1c-83e7-4958-b691-0a46f23d2d8b))
     (pin "2" (uuid 27993569-9889-4705-8056-74b82e11d42e))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "R301") (unit 1)
         )
@@ -802,7 +802,7 @@
     (pin "1" (uuid 3d30156b-c958-4b87-b9c9-c0b26bfedb6b))
     (pin "2" (uuid 476dab3e-8c87-486e-ab54-47eb01149519))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "C301") (unit 1)
         )
@@ -832,7 +832,7 @@
     )
     (pin "1" (uuid 3a650e93-b885-4ae8-b91c-f518b9237c51))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0306") (unit 1)
         )
@@ -862,7 +862,7 @@
     )
     (pin "1" (uuid ad84715b-aa18-44a5-a00f-1a7db566b811))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0304") (unit 1)
         )
@@ -892,7 +892,7 @@
     )
     (pin "1" (uuid f87f9487-65ac-4950-8ec4-bbb6e4d2b9fe))
     (instances
-      (project "ESPSoM_HW00"
+      (project "ESP_S3_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/fe763027-4af8-431c-8c5f-e79d70169837"
           (reference "#PWR0309") (unit 1)
         )
