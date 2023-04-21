@@ -206,7 +206,7 @@
     )
     (pin "1" (uuid 743fa20a-89f8-4017-95b6-6d3a942cef8d))
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
           (reference "#PWR08") (unit 1)
         )
@@ -231,7 +231,7 @@
     )
     (pin "1" (uuid df5eb1fa-388e-4a4c-a22a-b85ce4cea0cc))
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
           (reference "#PWR06") (unit 1)
         )
@@ -256,7 +256,7 @@
     )
     (pin "1" (uuid 83a1c577-0eb2-4cdb-85c8-7425e09e9bb0))
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
           (reference "#PWR07") (unit 1)
         )
@@ -281,7 +281,7 @@
     )
     (pin "1" (uuid 621df2f0-ed99-42b9-b3c5-08571ba81d9a))
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
           (reference "#PWR09") (unit 1)
         )
@@ -316,7 +316,7 @@
       (uuid bf28c853-7d0d-4884-bea2-b60e0223862d)
     )
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854" (page "3"))
       )
     )
@@ -377,7 +377,7 @@
       (uuid aeb9648a-59ea-4c2a-a795-94dd203a20c9)
     )
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854" (page "2"))
       )
     )
@@ -426,7 +426,7 @@
       (uuid d1f7ef7f-ced9-4d99-9ca2-a5894dd895f0)
     )
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854" (page "5"))
       )
     )
@@ -455,7 +455,7 @@
       (uuid 20b726c1-aa99-4250-a705-b41aba1e10cd)
     )
     (instances
-      (project "ESP_S3_SoM_HW00"
+      (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854" (page "4"))
       )
     )

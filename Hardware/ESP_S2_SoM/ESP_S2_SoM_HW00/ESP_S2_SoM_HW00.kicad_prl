@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -65,7 +65,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "ESP_S3_SoM_HW00.kicad_prl",
+    "filename": "ESP_S2_SoM_HW00.kicad_prl",
     "version": 3
   },
   "project": {
