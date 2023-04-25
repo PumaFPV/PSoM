@@ -163,6 +163,10 @@
     (stroke (width 0) (type default))
     (uuid e5f7f9bb-9f04-4e3e-b0fd-07f01111a2d7)
   )
+  (wire (pts (xy 101.6 58.42) (xy 127 58.42))
+    (stroke (width 0) (type default))
+    (uuid e821f77e-4fe2-4f1e-a2a7-60fa8806dfda)
+  )
   (bus (pts (xy 127 109.22) (xy 116.84 109.22))
     (stroke (width 0) (type default))
     (uuid e82284fc-69c8-47e7-bd1d-1ff699ae7217)
@@ -315,6 +319,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid bf28c853-7d0d-4884-bea2-b60e0223862d)
     )
+    (pin "BATTERY_TEMP" input (at 127 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4a97880d-c733-4f48-bd6f-cfbd45419c03)
+    )
     (instances
       (project "ESP_S2_SoM_HW00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854" (page "3"))
@@ -375,6 +383,10 @@
     (pin "SPI[0..7]" bidirectional (at 101.6 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid aeb9648a-59ea-4c2a-a795-94dd203a20c9)
+    )
+    (pin "BATTERY_TEMP" output (at 101.6 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 581ae91c-0d96-468b-9178-8c52979a21ec)
     )
     (instances
       (project "ESP_S2_SoM_HW00"
