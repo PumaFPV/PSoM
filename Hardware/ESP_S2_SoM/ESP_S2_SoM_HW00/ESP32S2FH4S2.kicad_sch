@@ -4029,7 +4029,7 @@
     (property "Value" "LED" (at 208.661 93.4597 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Component_lib:LED_0402_1005Metric_DUALSIDE" (at 205.74 90.17 0)
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric" (at 205.74 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 205.74 90.17 0)
