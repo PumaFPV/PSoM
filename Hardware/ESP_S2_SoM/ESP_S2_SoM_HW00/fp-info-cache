@@ -1,4 +1,4 @@
-21597123432038033
+21633315641140757
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -6286,6 +6286,13 @@ Connector
 10
 10
 Component_lib
+045138008100858
+045138008100858+-2
+Connector
+0
+14
+14
+Component_lib
 6-XFDFN
 
 
@@ -6293,12 +6300,19 @@ Component_lib
 6
 6
 Component_lib
-2450FM07D0034T
-2450FM07D0034T-3
-Filter
+74HC165BQ115
+74HC165BQ,115-1
+Integrated Circuit
 0
-4
-4
+17
+17
+Component_lib
+105450-0101
+
+
+0
+28
+28
 Component_lib
 17342603
 1734260-3-4
@@ -6313,6 +6327,20 @@ Connector
 0
 5
 5
+Component_lib
+532610471
+53261-0471
+Connector
+0
+6
+6
+Component_lib
+533980471
+53398-0471_1
+Connector
+0
+6
+6
 Component_lib
 533980667
 53398-0667-1
@@ -6355,6 +6383,20 @@ Connector
 0
 14
 14
+Component_lib
+AMASS_XT60-M
+
+
+0
+2
+2
+Component_lib
+AMASS_XT90PW-F
+
+
+0
+4
+4
 Component_lib
 ANTC3216X140N
 2450AT18A100E
@@ -6405,6 +6447,55 @@ SMD SMT crystal
 4
 4
 Component_lib
+DF30FC-40DS-0.4V
+
+
+0
+40
+40
+Component_lib
+DF30FC-80DS-0.4V
+
+
+0
+80
+80
+Component_lib
+DF40C-60DP-0.4V(51)
+DF40C-60DP-0.4V(51)
+Connector
+0
+64
+64
+Component_lib
+DF40C-60DS-0.4V(51)
+Receptacle
+
+0
+60
+60
+Component_lib
+DF56C40S03V51
+DF56C-40S-0.3V(51)-2
+Connector
+0
+45
+45
+Component_lib
+DF173020DS05V57
+DF17(3.0)-20DS-0.5V(57)
+Connector
+0
+22
+22
+Component_lib
+DF173050DS05V57
+DF17(3.0)-50DS-0.5V(57)-1
+Connector
+0
+52
+52
+Component_lib
 E28-2G4M27S
 
 
@@ -6412,12 +6503,26 @@ E28-2G4M27S
 16
 16
 Component_lib
+ECMF024CMX8
+Micro QFN-8L
+Filter
+0
+12
+8
+Component_lib
 ER840S08SV5H
 ER8-40S-0.8SV-5H-2
 Connector
 0
 42
 42
+Component_lib
+ERF5-050-05.0-X-DV
+
+
+0
+100
+100
 Component_lib
 ESP32-PICO-D4_1
 ESP32-PICO-D4_1
@@ -6502,6 +6607,13 @@ Inductor
 0
 2
 2
+Component_lib
+JST_B5B-XH-A_LF__SN_
+
+
+0
+5
+5
 Component_lib
 Kailh_socket_PG1350_optional_reversible
 Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
@@ -6608,6 +6720,13 @@ Diode
 2
 2
 Component_lib
+SAMTEC_ERM5-050-02.0-L-DV-TR
+
+
+0
+100
+100
+Component_lib
 SKRHABE010
 SKRHABE010-1
 Switch
@@ -6621,6 +6740,13 @@ Switch
 0
 4
 4
+Component_lib
+SKRTLAE010
+SKRTLAE010-4
+Switch
+0
+5
+5
 Component_lib
 SM02B-SURS-TF
 
@@ -6643,6 +6769,13 @@ Connector
 6
 6
 Component_lib
+SM06B-SURS-TF
+
+
+0
+8
+8
+Component_lib
 SM08B-SURS-TF
 
 
@@ -6657,16 +6790,16 @@ SM08B-SURS-TFLFSN
 10
 10
 Component_lib
-SM10B-XSRS-ETB
-
-
+SM10B-SURS-TF
+SM10B-SURS-TF(LF)(SN)
+Connector
 0
 12
 12
 Component_lib
-SM10BSURSTFLFSN
-SM10B-SURS-TF(LF)(SN)
-Connector
+SM10B-XSRS-ETB
+
+
 0
 12
 12
@@ -6755,6 +6888,13 @@ TVS Diode (Uni-directional)
 4
 4
 Component_lib
+SRM_Connector
+
+
+0
+10
+10
+Component_lib
 SS430350LDKTR
 SS4-30-3.50-L-D-K-TR-2
 Connector
@@ -6810,6 +6950,13 @@ RGB LED NeoPixel addressable
 0
 8
 4
+Component_lib
+nail_5x_P2.00mm_SMD
+surface-mounted straight socket strip, 2x05, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated
+Surface mounted socket strip SMD 2x05 2.00mm double row
+0
+5
+5
 Component_lib
 pmk-v1
 
