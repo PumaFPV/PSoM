@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.09999999999999999
         }
       },
       "diff_pair_dimensions": [
@@ -55,9 +55,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.152,
+          "gap": 0.203,
           "via_gap": 0.0,
-          "width": 0.228
+          "width": 0.182
         }
       ],
       "drc_exclusions": [],
@@ -180,6 +180,7 @@
         0.0,
         0.1,
         0.115,
+        0.185,
         0.2,
         0.228,
         0.25,
@@ -439,7 +440,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.09,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -449,14 +450,14 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.09,
-        "via_diameter": 0.4,
+        "track_width": 0.1,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.09,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -466,21 +467,153 @@
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 2, 0)",
-        "track_width": 0.09,
-        "via_diameter": 0.4,
+        "track_width": 0.1,
+        "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 20
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "RF",
+        "pcb_color": "rgb(217, 208, 0)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "SPI",
+        "pcb_color": "rgb(155, 23, 208)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "UART",
+        "pcb_color": "rgb(81, 255, 244)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.203,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.182,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
       }
     ],
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3V3": "rgb(255, 13, 4)",
+      "/100_Connectors/D+": "rgb(30, 178, 45)",
+      "/100_Connectors/D-": "rgb(255, 255, 255)",
+      "/VBAT": "rgb(255, 244, 0)",
+      "/VSYS": "rgb(255, 0, 124)",
+      "GND": "rgb(126, 48, 11)",
+      "VBUS": "rgb(255, 120, 12)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI0"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI1"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI2"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI3"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI4"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI5"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI6"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "\\SPI7"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/100_Connectors/TX0"
+      },
+      {
+        "netclass": "UART",
+        "pattern": "/100_Connectors/RX0"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/400_ESP32/LNA_IN"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/400_ESP32/ANT"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/100_Connectors/D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/100_Connectors/D-"
       }
     ]
   },
