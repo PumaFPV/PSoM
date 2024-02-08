@@ -623,7 +623,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP_S2_SoM_HW00.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
