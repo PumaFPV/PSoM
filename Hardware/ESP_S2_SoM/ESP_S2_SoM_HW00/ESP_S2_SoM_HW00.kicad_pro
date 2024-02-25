@@ -623,7 +623,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../../Component_lib/Hardware/SamacSys_Parts.3dshapes/PSoM_ESP32S2_00.step",
+      "step": "Mecha/PSoM_ESP32S2_00.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
