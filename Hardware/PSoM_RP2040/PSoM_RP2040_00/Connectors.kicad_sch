@@ -2126,7 +2126,7 @@
   (symbol (lib_id "Component_lib:VBAT") (at 180.34 55.88 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 04d3f69a-b342-43c7-b87b-21e0266267bc)
-    (property "Reference" "#VBAT0201" (at 185.42 50.8 0)
+    (property "Reference" "#VBAT0202" (at 185.42 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 175.26 53.34 0)
@@ -2142,7 +2142,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#VBAT0201") (unit 1)
+          (reference "#VBAT0202") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2156,7 +2156,7 @@
   (symbol (lib_id "Component_lib:VSYS") (at 266.7 45.72 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 0bf8b430-8f8b-45ed-930e-82525b284284)
-    (property "Reference" "#VSYS0202" (at 269.24 43.18 0)
+    (property "Reference" "#VSYS0201" (at 269.24 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 261.62 43.18 0)
@@ -2172,7 +2172,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#VSYS0202") (unit 1)
+          (reference "#VSYS0201") (unit 1)
         )
       )
     )
@@ -2181,7 +2181,7 @@
   (symbol (lib_id "power:VBUS") (at 187.96 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1ea6bace-49c3-4065-b205-d828cd13ca48)
-    (property "Reference" "#PWR0207" (at 187.96 67.31 0)
+    (property "Reference" "#PWR0204" (at 187.96 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 185.42 60.96 0)
@@ -2197,7 +2197,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0207") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2211,7 +2211,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 238.76 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 230a03bb-2fdf-40f3-b7e9-df13d43e4fe2)
-    (property "Reference" "#PWR0210" (at 238.76 143.51 0)
+    (property "Reference" "#PWR0214" (at 238.76 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 142.24 0)
@@ -2227,7 +2227,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0210") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -2262,7 +2262,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 172.72 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37856755-10d3-495a-8b51-857798ceb692)
-    (property "Reference" "#PWR0206" (at 172.72 138.43 0)
+    (property "Reference" "#PWR0212" (at 172.72 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 137.16 0)
@@ -2278,7 +2278,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -2318,7 +2318,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 147.32 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4a361bf3-44c7-4dfc-a766-ffdfe2a8f2b4)
-    (property "Reference" "#PWR0205" (at 147.32 138.43 0)
+    (property "Reference" "#PWR0211" (at 147.32 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 137.16 0)
@@ -2334,7 +2334,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0205") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -2343,7 +2343,7 @@
   (symbol (lib_id "Component_lib:R") (at 238.76 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ba6f621-e7d0-434e-ab09-a306837a1b47)
-    (property "Reference" "R204" (at 240.538 130.1663 0)
+    (property "Reference" "R205" (at 240.538 130.1663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470k" (at 240.538 132.0873 0)
@@ -2360,7 +2360,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "R204") (unit 1)
+          (reference "R205") (unit 1)
         )
       )
     )
@@ -2369,7 +2369,7 @@
   (symbol (lib_id "Component_lib:VSYS") (at 180.34 71.12 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 51c9d301-e6d2-4b46-83ff-bc2cbe7e28b7)
-    (property "Reference" "#VSYS0201" (at 182.88 68.58 0)
+    (property "Reference" "#VSYS0202" (at 182.88 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VSYS" (at 180.34 68.58 0)
@@ -2385,7 +2385,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#VSYS0201") (unit 1)
+          (reference "#VSYS0202") (unit 1)
         )
       )
     )
@@ -2394,7 +2394,7 @@
   (symbol (lib_id "power:+3V3") (at 121.92 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d58791f-ac8c-4145-839a-1484f0a9b95d)
-    (property "Reference" "#PWR0214" (at 121.92 110.49 0)
+    (property "Reference" "#PWR0210" (at 121.92 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 119.38 104.14 0)
@@ -2410,7 +2410,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -2419,7 +2419,7 @@
   (symbol (lib_id "power:GND") (at 83.82 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6146ccef-b74b-4041-8f65-bf0476b7dd2e)
-    (property "Reference" "#PWR0203" (at 83.82 77.47 0)
+    (property "Reference" "#PWR0205" (at 83.82 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 75.5634 0)
@@ -2435,7 +2435,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0203") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2449,7 +2449,7 @@
   (symbol (lib_id "power:+3V3") (at 266.7 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67ae343e-25a8-48aa-9a4f-511d5ef2ce7d)
-    (property "Reference" "#PWR0212" (at 266.7 41.91 0)
+    (property "Reference" "#PWR0202" (at 266.7 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 264.16 35.56 0)
@@ -2465,7 +2465,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -2474,7 +2474,7 @@
   (symbol (lib_id "Component_lib:VBAT") (at 266.7 22.86 0) (unit 1)
     (in_bom no) (on_board no) (dnp no)
     (uuid 6fd12e7e-8d2e-4fd2-accf-d689fce6b559)
-    (property "Reference" "#VBAT0202" (at 271.78 17.78 0)
+    (property "Reference" "#VBAT0201" (at 271.78 17.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBAT" (at 261.62 20.32 0)
@@ -2490,7 +2490,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#VBAT0202") (unit 1)
+          (reference "#VBAT0201") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2588,7 +2588,7 @@
   (symbol (lib_id "power:VBUS") (at 266.7 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7db75943-9945-4a5b-86e2-2099f9d783e7)
-    (property "Reference" "#PWR0211" (at 266.7 34.29 0)
+    (property "Reference" "#PWR0201" (at 266.7 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 264.16 27.94 0)
@@ -2604,7 +2604,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0211") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2618,7 +2618,7 @@
   (symbol (lib_id "power:GND") (at 50.8 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8752bd4c-0009-4be7-9b50-4a40485556a9)
-    (property "Reference" "#PWR0201" (at 50.8 95.25 0)
+    (property "Reference" "#PWR0208" (at 50.8 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 93.3434 0)
@@ -2634,7 +2634,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0201") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2648,7 +2648,7 @@
   (symbol (lib_id "power:GND") (at 266.7 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8e625a53-ed0f-4d3b-880d-e5f6d79c9aa4)
-    (property "Reference" "#PWR0213" (at 266.7 107.95 0)
+    (property "Reference" "#PWR0209" (at 266.7 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 106.0434 0)
@@ -2664,7 +2664,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0213") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2678,7 +2678,7 @@
   (symbol (lib_id "power:GND") (at 93.98 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a59e0614-90c4-4650-977b-f69b6fc4deb6)
-    (property "Reference" "#PWR0204" (at 93.98 77.47 0)
+    (property "Reference" "#PWR0206" (at 93.98 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 75.5634 0)
@@ -2694,7 +2694,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0204") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2708,7 +2708,7 @@
   (symbol (lib_name "GND_2") (lib_id "power:GND") (at 228.6 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa2555cc-7464-4839-8ae1-28cb977fa7fc)
-    (property "Reference" "#PWR0209" (at 228.6 143.51 0)
+    (property "Reference" "#PWR0213" (at 228.6 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 142.24 0)
@@ -2724,7 +2724,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0209") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -2764,7 +2764,7 @@
   (symbol (lib_id "power:+3V3") (at 187.96 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2eeaecc-fbeb-4e96-bdf0-efee5e2906ae)
-    (property "Reference" "#PWR0208" (at 187.96 80.01 0)
+    (property "Reference" "#PWR0207" (at 187.96 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 190.5 73.66 0)
@@ -2780,7 +2780,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0208") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -2881,7 +2881,7 @@
   (symbol (lib_id "power:VBUS") (at 66.04 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d68a8c59-f79b-4257-b2ff-0888c6ef0877)
-    (property "Reference" "#PWR0202" (at 66.04 52.07 0)
+    (property "Reference" "#PWR0203" (at 66.04 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 66.04 44.6842 0)
@@ -2897,7 +2897,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "#PWR0202") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
       (project "PMK_Keyboard"
@@ -2911,7 +2911,7 @@
   (symbol (lib_id "Component_lib:R") (at 218.44 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f00fa695-2a4e-4c8e-b0f1-bfc4c0e4a561)
-    (property "Reference" "R205" (at 222.25 119.38 90)
+    (property "Reference" "R204" (at 222.25 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 222.25 121.92 90)
@@ -2928,7 +2928,7 @@
     (instances
       (project "PSoM_RP2040_00"
         (path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
-          (reference "R205") (unit 1)
+          (reference "R204") (unit 1)
         )
       )
     )

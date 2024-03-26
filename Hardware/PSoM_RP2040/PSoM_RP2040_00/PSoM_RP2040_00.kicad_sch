@@ -399,7 +399,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d889dcd3-4716-4703-92d5-00b214989b25)
-    (property "Sheetname" "200_Connectors" (at 50.8 24.6884 0)
+    (property "Sheetname" "100_Connectors" (at 50.8 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "Connectors.kicad_sch" (at 50.8 76.7846 0)
