@@ -5,7 +5,7 @@
   (paper "A4")
 
   (title_block
-    (title "PSoM - ESP S3")
+    (title "PSoM - ESP S2")
     (date "2023-04-17")
     (rev "HW00")
     (company "PumaCorp")
