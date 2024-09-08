@@ -1,0 +1,2 @@
+Schematic:
+	-R103: 470k
