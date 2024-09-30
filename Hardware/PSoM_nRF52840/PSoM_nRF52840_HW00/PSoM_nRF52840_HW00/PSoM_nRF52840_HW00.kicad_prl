@@ -65,6 +65,12 @@
     "visible_layers": "00010c0_ffffffe1",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "PSoM_nRF52840_HW00.kicad_prl",
     "version": 3
