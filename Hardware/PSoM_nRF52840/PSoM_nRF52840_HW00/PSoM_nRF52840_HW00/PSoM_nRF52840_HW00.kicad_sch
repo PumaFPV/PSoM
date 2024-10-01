@@ -1099,8 +1099,8 @@
 		)
 	)
 	(sheet
-		(at 127 101.6)
-		(size 50.8 50.8)
+		(at 187.96 116.84)
+		(size 33.02 35.56)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -1109,9 +1109,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f80064c8-41de-40ac-b331-44fdb69dca18")
-		(property "Sheetname" "400_nRF52840"
-			(at 127 100.8884 0)
+		(uuid "f0612286-54f9-458a-949b-e71e3a4da5eb")
+		(property "Sheetname" "nRF52840"
+			(at 187.96 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1119,104 +1119,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ESP32S2FH4S2.kicad_sch"
-			(at 127 152.9846 0)
+		(property "Sheetfile" "nRF52840.kicad_sch"
+			(at 187.96 152.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
-		)
-		(pin "D-" bidirectional
-			(at 127 106.68 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d047aed9-e1be-41e0-92b9-b64d0d59c157")
-		)
-		(pin "+3V3" input
-			(at 160.02 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "47d0124b-f1a7-4c93-bddf-3d37922b2f48")
-		)
-		(pin "D+" bidirectional
-			(at 127 104.14 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7cf8df0d-7873-4cb2-b0ce-62caabd0e197")
-		)
-		(pin "GND" passive
-			(at 167.64 152.4 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d4faaa7c-f3b0-4574-b5fa-5463a7fb7daa")
-		)
-		(pin "IO[0..42]" bidirectional
-			(at 127 109.22 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "9b535df7-338e-47ad-aea0-3a76cd4aaff1")
-		)
-		(pin "RX0" input
-			(at 127 114.3 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "58cad2ba-ab07-4c1b-9d2d-11431afc145c")
-		)
-		(pin "TX0" output
-			(at 127 116.84 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "93007b66-ec3d-4c37-9c9b-51ddf9c9d0b2")
-		)
-		(pin "SPI[0..7]" bidirectional
-			(at 127 111.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d1f7ef7f-ced9-4d99-9ca2-a5894dd895f0")
-		)
-		(pin "EN" input
-			(at 127 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "28d945a2-87b8-4481-be25-5e049b920b0a")
 		)
 		(instances
 			(project "PSoM_nRF52840_HW00"

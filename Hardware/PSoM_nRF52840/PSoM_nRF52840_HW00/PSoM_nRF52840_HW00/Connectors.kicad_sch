@@ -7711,7 +7711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c575c8cb-4977-4cd7-9d35-0cadac53da69")
-		(property "Reference" "C415"
+		(property "Reference" "C101"
 			(at 231.521 130.1663 0)
 			(effects
 				(font
@@ -7766,10 +7766,6 @@
 			(project "ESP_S2_SoM_HW00"
 				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/d889dcd3-4716-4703-92d5-00b214989b25"
 					(reference "C101")
-					(unit 1)
-				)
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f80064c8-41de-40ac-b331-44fdb69dca18"
-					(reference "C415")
 					(unit 1)
 				)
 			)
