@@ -1099,7 +1099,7 @@
 		)
 	)
 	(sheet
-		(at 187.96 116.84)
+		(at 142.24 104.14)
 		(size 33.02 35.56)
 		(fields_autoplaced yes)
 		(stroke
@@ -1111,7 +1111,7 @@
 		)
 		(uuid "f0612286-54f9-458a-949b-e71e3a4da5eb")
 		(property "Sheetname" "nRF52840"
-			(at 187.96 116.1284 0)
+			(at 142.24 103.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1120,7 @@
 			)
 		)
 		(property "Sheetfile" "nRF52840.kicad_sch"
-			(at 187.96 152.9846 0)
+			(at 142.24 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1132,74 +1132,6 @@
 			(project "PSoM_nRF52840_HW00"
 				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 50.8 101.6)
-		(size 50.8 50.8)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "fe763027-4af8-431c-8c5f-e79d70169837")
-		(property "Sheetname" "300_Power"
-			(at 50.8 100.8884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power.kicad_sch"
-			(at 50.8 152.9846 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "+3V3" output
-			(at 88.9 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d0597d7-2981-4258-8d47-8d1d272ce7de")
-		)
-		(pin "VSYS" input
-			(at 91.44 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "140b480f-61d4-47aa-a2b6-f3003f21e7d3")
-		)
-		(pin "GND" passive
-			(at 88.9 152.4 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "20b726c1-aa99-4250-a705-b41aba1e10cd")
-		)
-		(instances
-			(project "PSoM_nRF52840_HW00"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854"
-					(page "4")
 				)
 			)
 		)

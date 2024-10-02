@@ -5,8 +5,8 @@
 	(uuid "b65241f8-1558-460f-a2f6-2d1628020e2d")
 	(paper "A4")
 	(title_block
-		(title "PSoM - ESP S3")
-		(date "2023-04-17")
+		(title "PSoM - nRF52840")
+		(date "2024-09-30")
 		(rev "HW00")
 		(company "PumaCorp")
 		(comment 1 "Design by: NdG")

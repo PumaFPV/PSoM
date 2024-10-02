@@ -5,8 +5,8 @@
 	(uuid "1055a12c-de3d-4753-aef1-2b6e803dd877")
 	(paper "A4")
 	(title_block
-		(title "PSoM - ESP32 S2")
-		(date "2023-04-17")
+		(title "PSoM - nRF52840")
+		(date "2024-09-30")
 		(rev "HW00")
 		(company "PumaCorp")
 		(comment 1 "Design by: NdG")
