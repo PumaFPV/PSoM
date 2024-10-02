@@ -1,4 +1,4 @@
-23817005675851292
+24060855920830663
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -1316,6 +1316,13 @@ Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.c
 8
 4
 Button_Switch_SMD
+SW_SPDT_CK-JS102011SAQN
+Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
+switch spdt
+0
+3
+3
+Button_Switch_SMD
 SW_SPDT_CK_JS102011SAQN
 Sub-miniature slide switch, right-angle, http://www.ckswitches.com/media/1422/js.pdf
 switch spdt
@@ -1700,6 +1707,20 @@ SPST button switch Off-On
 0
 2
 2
+Button_Switch_THT
+SW_CuK_JS202011AQN_DPDT_Angled
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+Button_Switch_THT
+SW_CuK_JS202011CQN_DPDT_Straight
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
 Button_Switch_THT
 SW_DIP_SPSTx01_Piano_10.8x4.1mm_W7.62mm_P2.54mm
 1x-dip-switch SPST , Piano, row spacing 7.62 mm (300 mils), body size 10.8x4.1mm
@@ -2305,7 +2326,7 @@ tactile switch Omron B3F right angle through hole
 Button_Switch_THT
 SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm
 Wuerth, WS-SLTV, 450301014042, https://www.we-online.com/components/products/datasheet/450301014042.pdf
-switch single-pole double-throw SPDT würth wurth
+switch single-pole opposite-side-connection double-throw SPDT würth wurth
 0
 3
 3
@@ -6576,6 +6597,13 @@ Component_lib
 830105420809
 3.4x2.7x0.8mm
 Crystal or Oscillator
+0
+4
+4
+Component_lib
+830108161301_1.6x1.2mm
+Miniature Crystal Clock Oscillator https://www.we-online.com/components/products/datasheet/830108161301.pdf 1.6x1.2mm^2 package
+SMD SMT crystal oscillator 32MHz 1.6x1.2
 0
 4
 4
@@ -50590,7 +50618,7 @@ USB Micro B horizontal SMD
 6
 Connector_USB
 USB_Micro-B_Amphenol_10118194_Horizontal
-USB Micro-B receptacle, horizontal, SMD, 10118194, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
+USB Micro-B receptacle, horizontal, SMD, 10118194, 10118194-0011LF, 10118194-0012LF, https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf
 USB Micro B horizontal SMD
 0
 17
@@ -60005,91 +60033,91 @@ Inductor xal
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-102
-Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-102, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-103
-Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-103, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-152
-Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-152, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-161
-Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-161, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-222
-Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-222, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-272
-Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-272, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-301
-Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-301, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-332
-Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-332, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-472
-Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-472, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-562
-Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-562, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-601
-Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-601, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-682
-Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-682, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
 2
 Inductor_SMD
 L_Coilcraft_XAL7030-822
-Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf
+Inductor, Coilcraft, XAL7030-822, 8.0x8.0x3.1mm, (https://www.coilcraft.com/getmedia/0d05a05e-d55d-4a0c-911d-46bd73686633/xal7030.pdf), generated with kicad-footprint-generator gen_inductor.py
 Inductor xal
 0
 2
@@ -68768,6 +68796,13 @@ laser-ranging sensor
 12
 12
 OptoDevice
+ST_VL53L1X
+https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+laser-ranging sensor
+0
+12
+12
+OptoDevice
 Sharp_GP2S700HCP
 Sharp GP2S700HCP, light-direction upwards, see: https://www.sharpsde.com/fileadmin/products/Optoelectronics/Isolation%20Devices/Specs_Photointerrupter/GP2S700HCP_03Oct05_DS_D3-A02201FEN.pdf
 refective opto couple photo coupler
@@ -71925,6 +71960,13 @@ DFN NoLead 506AQ
 13
 9
 Package_DFN_QFN
+DFN-8-1EP_2x2mm_P0.5mm_EP0.7x1.3mm
+DFN, 8 Pin (https://www.onsemi.com/pub/Collateral/NUF4401MN-D.PDF#page=6), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
+0
+13
+9
+Package_DFN_QFN
 DFN-8-1EP_2x2mm_P0.5mm_EP0.8x1.6mm
 DFN, 8 Pin (https://www.qorvo.com/products/d/da007268), generated with kicad-footprint-generator ipc_noLead_generator.py
 DFN NoLead
@@ -71975,10 +72017,10 @@ DFN NoLead
 9
 Package_DFN_QFN
 DFN-8-1EP_2x3mm_P0.5mm_EP0.61x2.2mm
-DDB Package; 8-Lead Plastic DFN (3mm x 2mm) (see Linear Technology DFN_8_05-08-1702.pdf)
-DFN 0.5
+DFN, 8 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/ltc-legacy-dfn/05081702_c_ddb8.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+DFN NoLead
 0
-12
+11
 9
 Package_DFN_QFN
 DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm
@@ -72291,6 +72333,13 @@ VDFN DFN 0.65mm
 Package_DFN_QFN
 DFN-14-1EP_3x4mm_P0.5mm_EP1.7x3.3mm
 DE Package; 14-Lead Plastic DFN (4mm x 3mm) (see Linear Technology DFN_14_05-08-1708.pdf)
+DFN 0.5
+0
+23
+15
+Package_DFN_QFN
+DFN-14-1EP_4x4mm_P0.5mm_EP2.86x3.6mm
+DFN14, 4x4, 0.5P; CASE 506CM (see ON Semiconductor 506CM.PDF)
 DFN 0.5
 0
 23
@@ -74650,7 +74699,7 @@ TDFN NoLead
 Package_DFN_QFN
 TQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm
 TQFN, 16 Pin (https://www.diodes.com/assets/Datasheets/PI6C5946002.pdf#page=12), generated with kicad-footprint-generator ipc_noLead_generator.py
-TQFN NoLead
+TQFN NoLead Pericom-TQFN-16-ZH Analog-CP-16-22
 0
 21
 17
@@ -75502,6 +75551,13 @@ TI RNR0011A
 20
 11
 Package_DFN_QFN
+Texas_VSON-HR-8_1.5x2mm_P0.5mm
+Texas  VSON-HR, 8 Pin (http://www.ti.com/lit/ds/symlink/tps62823.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas VSON-HR NoLead
+0
+8
+8
+Package_DFN_QFN
 Texas_WQFN-MR-100_3x3-DapStencil
 http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=szza059&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=mpqf258&fileType=pdf,http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=LPPD235&fileType=pdf
 MultiRow QFN
@@ -75993,14 +76049,14 @@ VQFN NoLead
 49
 Package_DFN_QFN
 VQFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm
-VQFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN, 64 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 74
 65
 Package_DFN_QFN
 VQFN-64-1EP_9x9mm_P0.5mm_EP5.4x5.4mm_ThermalVias
-VQFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN, 64 Pin (https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16LF19195-6-7-Data-Sheet-40001873D.pdf#page=718), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
 0
 100
@@ -76211,14 +76267,14 @@ WQFN-20 4.5mm 2.5mm 0.5mm
 Package_DFN_QFN
 WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm
 WQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/ts3ds10224.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
-WQFN NoLead
+WQFN NoLead Texas_RUK0020B
 0
 25
 21
 Package_DFN_QFN
 WQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm_ThermalVias
 WQFN, 20 Pin (https://www.ti.com/lit/ds/symlink/ts3ds10224.pdf#page=29), generated with kicad-footprint-generator ipc_noLead_generator.py
-WQFN NoLead
+WQFN NoLead Texas_RUK0020B
 0
 30
 21
@@ -80416,6 +80472,27 @@ QSOP SO
 28
 28
 Package_SO
+ROHM_SOT-457_ClockwisePinNumbering
+ROHM SOT-457 SC-74, 6 Pin (https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/imh3at110-e.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+ROHM SC-74 SO
+0
+6
+6
+Package_SO
+SC-74-6_1.55x2.9mm_P0.95mm
+SC-74, 6 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=39), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SC-74 SO
+0
+6
+6
+Package_SO
+SC-74A-5_1.55x2.9mm_P0.95mm
+SC-74A, 5 Pin (https://www.jeita.or.jp/japanese/standard/book/ED-7500B/#target/page_no=41), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SC-74A SO
+0
+5
+5
+Package_SO
 SO-4_4.4x2.3mm_P1.27mm
 4-Lead Plastic Small Outline (SO), see http://datasheet.octopart.com/OPIA403BTRE-Optek-datasheet-5328560.pdf
 SO SOIC 1.27
@@ -80732,8 +80809,8 @@ SOIC 1.27 16 12 Wide
 12
 Package_SO
 SOIC-16W_5.3x10.2mm_P1.27mm
-16-Lead Plastic Small Outline (SO) - Wide, 5.3 mm Body (http://www.ti.com/lit/ml/msop002a/msop002a.pdf)
-SOIC 1.27
+SOIC, 16 Pin (http://www.ti.com/lit/ml/msop002a/msop002a.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
 0
 16
 16
@@ -81110,8 +81187,8 @@ SSOP 0.635
 20
 Package_SO
 SSOP-20_4.4x6.5mm_P0.65mm
-SSOP20: plastic shrink small outline package; 20 leads; body width 4.4 mm; (see NXP SSOP-TSSOP-VSO-REFLOW.pdf and sot266-1_po.pdf)
-SSOP 0.65
+SSOP, 20 Pin (https://www.jedec.org/system/files/docs/Mo-152c.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SSOP SO JEDEC-MO-152-AC SOT266-1 Nisshinbo-PI-SSOP20-E-A Rohm-SSOP-B20
 0
 20
 20
@@ -82048,8 +82125,8 @@ SSOP 0.75
 56
 Package_SO
 VSSOP-8_2.3x2mm_P0.5mm
-VSSOP-8 2.3x2mm Pitch 0.5mm
-VSSOP-8 2.3x2mm Pitch 0.5mm
+VSSOP, 8 Pin (https://www.jedec.org/standards-documents/docs/mo-187-f), generated with kicad-footprint-generator ipc_gullwing_generator.py
+VSSOP SO JEDEC-MO-187-CA TI-DCU0008A
 0
 8
 8
@@ -82433,7 +82510,7 @@ Texas VSON-HR NoLead
 8
 Package_SON
 Texas_X2SON-4_1x1mm_P0.65mm
-X2SON 5 pin 1x1mm package (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
+X2SON 5 pin 1x1mm package, DQN0004A (Reference Datasheet: http://www.ti.com/lit/ds/sbvs193d/sbvs193d.pdf Reference part: TPS383x) [StepUp generated footprint]
 X2SON
 0
 13
@@ -84680,43 +84757,43 @@ TO-100-10_Window Window
 10
 Package_TO_SOT_THT
 TO-126-2_Horizontal_TabDown
-TO-126-2, Horizontal, RM 5.08mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-2, Horizontal, RM 5.08mm, see https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf
 TO-126-2 Horizontal RM 5.08mm
 0
 2
 2
 Package_TO_SOT_THT
 TO-126-2_Horizontal_TabUp
-TO-126-2, Horizontal, RM 5.08mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-2, Horizontal, RM 5.08mm, see https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf
 TO-126-2 Horizontal RM 5.08mm
 0
 2
 2
 Package_TO_SOT_THT
 TO-126-2_Vertical
-TO-126-2, Vertical, RM 5.08mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-2, Vertical, RM 5.08mm, see https://www.caddock.com/online_catalog/mrktg_lit/MP9000_Series.pdf
 TO-126-2 Vertical RM 5.08mm
 0
 2
 2
 Package_TO_SOT_THT
 TO-126-3_Horizontal_TabDown
-TO-126-3, Horizontal, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
-TO-126-3 Horizontal RM 2.54mm
+TO-126-3, Horizontal, RM 2.28mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-3 Horizontal RM 2.28mm
 0
 3
 3
 Package_TO_SOT_THT
 TO-126-3_Horizontal_TabUp
-TO-126-3, Horizontal, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
-TO-126-3 Horizontal RM 2.54mm
+TO-126-3, Horizontal, RM 2.28mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-3 Horizontal RM 2.28mm
 0
 3
 3
 Package_TO_SOT_THT
 TO-126-3_Vertical
-TO-126-3, Vertical, RM 2.54mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
-TO-126-3 Vertical RM 2.54mm
+TO-126-3, Vertical, RM 2.28mm, see https://www.diodes.com/assets/Package-Files/TO126.pdf
+TO-126-3 Vertical RM 2.28mm
 0
 3
 3
@@ -86016,6 +86093,13 @@ Potentiometer
 3
 3
 Potentiometer_THT
+Potentiometer_Bourns_3386W_Vertical
+Potentiometer, vertical, Bourns 3386W, https://www.bourns.com/docs/Product-Datasheets/3386.pdf
+Potentiometer 
+0
+3
+3
+Potentiometer_THT
 Potentiometer_Bourns_3386X_Horizontal
 Potentiometer, horizontal, Bourns 3386X, https://www.bourns.com/pdfs/3386.pdf
 Potentiometer horizontal Bourns 3386X
@@ -86708,6 +86792,13 @@ xL865 gsm umts
 0
 52
 48
+RF_GSM
+ublox_SARA-G3_LGA-96
+ublox Sara GSM/HSPA modem, https://www.u-blox.com/sites/default/files/SARA-G3-U2_SysIntegrManual_%28UBX-13000995%29.pdf, pag.162
+ublox SARA-G3 SARA-U2 GSM HSPA
+0
+192
+96
 RF_GSM
 ublox_SARA_LGA-96
 ublox SARA cellular/GNSS module, https://www.u-blox.com/sites/default/files/SARA-G3-U2_SysIntegrManual_%28UBX-13000995%29.pdf, pag.162
@@ -87781,8 +87872,8 @@ AXICOM IM-Series Relay SPDT
 8
 Relay_THT
 Relay_DPDT_Finder_40.52
-Relay DPDT Finder 40.52, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.52 Pitch 5mm
+DPDT relay, Finder 40.52, 8A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+2-Form-C
 0
 8
 8
@@ -87970,29 +88061,29 @@ spdt relay
 5
 Relay_THT
 Relay_SPDT_Finder_40.11
-Relay SPDT Finder 40.11, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay SPDT Finder 40.11 
+Relay SPDT Finder 40.11, 10/16A, 250V, body size 28.5x26.3mm, height 12.7mm, https://web.archive.org/web/20170816081018if_/https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.31
-Relay DPDT Finder 40.31, Pitch 3.5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.31 Pitch 3.5mm
+DPDT relay, Finder 40.52, 10/12A, 250V, body size 29x12.4mm, height 25mm, pitch 3.5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.41
-Relay DPDT Finder 40.41, Pitch 3.5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.41 Pitch 3.5mm
+Relay SPDT Finder 40.11, 10A, 250V, body size 28.5x12.3mm, height 26.3mm, https://web.archive.org/web/20170816081018if_/https://www.finder-relais.net/de/finder-relais-serie-40.pdf
+1-Form-C
 0
 5
 5
 Relay_THT
 Relay_SPDT_Finder_40.51
-Relay DPDT Finder 40.51, Pitch 5mm/7.5mm, https://www.finder-relais.net/de/finder-relais-serie-40.pdf
-Relay DPDT Finder 40.51 Pitch 5mm
+SPDT relay, Finder 40.52, 10/12A, 250V, body size 29x12.4mm, height 25mm, pitch 5x7.5mm, https://cdn.findernet.com/app/uploads/S40EN.pdf
+1-Form-C
 0
 5
 5
