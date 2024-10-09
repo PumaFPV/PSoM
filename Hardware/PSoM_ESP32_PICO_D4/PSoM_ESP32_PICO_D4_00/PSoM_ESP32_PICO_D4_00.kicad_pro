@@ -440,7 +440,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ESP_PicoD4_SoM_HW00.kicad_pro",
+    "filename": "PSoM_ESP32_PICO_D4_00.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -640,6 +640,7 @@
   },
   "schematic": {
     "annotate_start_num": 400,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -749,7 +750,7 @@
   "sheets": [
     [
       "14b8af2e-80ef-48c8-890f-5f81b4faa854",
-      ""
+      "Root"
     ],
     [
       "d889dcd3-4716-4703-92d5-00b214989b25",

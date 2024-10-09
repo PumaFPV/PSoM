@@ -73,7 +73,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "ESP_PicoD4_SoM_HW00.kicad_prl",
+    "filename": "PSoM_ESP32_PICO_D4_00.kicad_prl",
     "version": 3
   },
   "project": {
