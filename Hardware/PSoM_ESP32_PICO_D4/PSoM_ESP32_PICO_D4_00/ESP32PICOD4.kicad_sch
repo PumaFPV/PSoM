@@ -2202,6 +2202,10 @@
 		(at 101.6 111.76)
 		(uuid "e78cb605-c8de-4521-aa03-74b5ededf222")
 	)
+	(no_connect
+		(at 226.06 144.78)
+		(uuid "f5ca60de-35d7-4a9b-8e10-38fcece60b3e")
+	)
 	(bus_entry
 		(at 243.84 30.48)
 		(size 2.54 -2.54)
@@ -4144,6 +4148,25 @@
 			(justify top)
 		)
 		(uuid "a1984aaf-1028-41dd-b800-dce5f3d9d2cf")
+	)
+	(text_box "Only ADC1 is available\n(ADC2 used by wifi)"
+		(exclude_from_sim no)
+		(at 210.82 83.82 0)
+		(size 20.32 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f137dba3-d11b-4955-b853-040cc4c4c6fd")
 	)
 	(text "Internally PD\nNeeds to be PD for boot\nRecommanded as GPO\n-> Used for internal LED"
 		(exclude_from_sim no)

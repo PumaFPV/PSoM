@@ -2116,6 +2116,10 @@
 		(uuid "d1955b74-e906-4e0a-a712-097b703c2f88")
 	)
 	(no_connect
+		(at 149.86 93.98)
+		(uuid "d8234ddc-caeb-46b5-b037-e37ec6d65606")
+	)
+	(no_connect
 		(at 170.18 93.98)
 		(uuid "eb84ede2-bdca-45a0-98a8-237aeaf319ad")
 	)
@@ -2415,15 +2419,6 @@
 			(type default)
 		)
 		(uuid "fc76c6c3-554c-4e7a-98ae-2054a591730e")
-	)
-	(bus_entry
-		(at 134.62 93.98)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff0d464b-81ed-4d4d-aafd-86df22cb0d7e")
 	)
 	(wire
 		(pts
@@ -2888,16 +2883,6 @@
 		)
 		(uuid "53c2f1f8-a353-4b4a-bdae-9995b448a7dc")
 	)
-	(bus
-		(pts
-			(xy 132.08 96.52) (xy 132.08 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55238ead-a43f-4372-af8d-c34a83d11a7c")
-	)
 	(wire
 		(pts
 			(xy 266.7 33.02) (xy 269.24 33.02)
@@ -3175,6 +3160,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 121.92) (xy 149.86 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3df3c8-dbc8-464b-a3de-9992635193d6")
+	)
+	(wire
+		(pts
 			(xy 134.62 81.28) (xy 149.86 81.28)
 		)
 		(stroke
@@ -3243,16 +3238,6 @@
 			(type default)
 		)
 		(uuid "8e414699-7cec-450b-a64f-3e7718810fbf")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 149.86 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f87c09d-3e70-4cba-ae92-379eb3762008")
 	)
 	(wire
 		(pts
@@ -3449,16 +3434,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 93.98) (xy 149.86 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1336a3d-ad45-47a4-8256-e2e49cc5e5d7")
-	)
-	(wire
-		(pts
 			(xy 170.18 129.54) (xy 172.72 129.54)
 		)
 		(stroke
@@ -3509,7 +3484,7 @@
 	)
 	(bus
 		(pts
-			(xy 132.08 93.98) (xy 132.08 96.52)
+			(xy 132.08 93.98) (xy 132.08 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3778,7 +3753,7 @@
 		)
 		(uuid "3c82d783-c1ce-480a-9540-e932eb8f228b")
 	)
-	(text "100-USB"
+	(text "100-Connectors"
 		(exclude_from_sim no)
 		(at 15.24 30.48 0)
 		(effects
@@ -3802,17 +3777,6 @@
 		)
 		(uuid "39972b0f-0f65-453f-8901-fedacb6be6f7")
 	)
-	(label "IO26"
-		(at 134.62 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01162416-e264-45df-aadb-8ddc6ea80f33")
-	)
 	(label "BATTERY_TEMP"
 		(at 139.7 58.42 180)
 		(fields_autoplaced yes)
@@ -3834,6 +3798,28 @@
 			(justify left bottom)
 		)
 		(uuid "0536aa64-2cb2-4bd8-bdca-cc43926aaacb")
+	)
+	(label "IO21"
+		(at 144.78 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06167fd7-4b17-4a45-a154-c8e9de1a6e5a")
+	)
+	(label "SPI1"
+		(at 124.46 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a112cbd-4a89-4f58-8f3c-7b3ce46b442a")
 	)
 	(label "EN"
 		(at 266.7 78.74 180)
@@ -3857,39 +3843,6 @@
 		)
 		(uuid "0e715a63-cd9e-455c-ae56-68e44b5ce40d")
 	)
-	(label "IO17"
-		(at 134.62 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10e41a38-8879-4dd3-9ac5-1e93dce430fd")
-	)
-	(label "IO32"
-		(at 175.26 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12d3e0f5-3b5d-483d-a053-310a2eefc111")
-	)
-	(label "IO2"
-		(at 175.26 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15fe20b5-77df-4283-829f-6c999728be05")
-	)
 	(label "VBAT"
 		(at 266.7 25.4 180)
 		(fields_autoplaced yes)
@@ -3901,8 +3854,8 @@
 		)
 		(uuid "181c581e-8cab-47ed-a1b9-637408c5974f")
 	)
-	(label "IO21"
-		(at 134.62 71.12 0)
+	(label "PSRAM_CLK"
+		(at 134.62 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3910,7 +3863,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1f8596d8-a7e7-4143-bfba-bd6d9d72755b")
+		(uuid "1939ef1f-5183-457a-8186-afec5358edc7")
 	)
 	(label "VBUS"
 		(at 266.7 33.02 180)
@@ -3923,6 +3876,17 @@
 		)
 		(uuid "261c1af8-703b-40a0-a252-be72d3663daa")
 	)
+	(label "SPI6"
+		(at 124.46 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2676ffff-7d4e-4745-9091-a6fe5f9f4ce3")
+	)
 	(label "VBAT"
 		(at 180.34 58.42 180)
 		(fields_autoplaced yes)
@@ -3934,8 +3898,8 @@
 		)
 		(uuid "26aa72c8-0e83-4656-a914-88c04e7ed640")
 	)
-	(label "SD_D2"
-		(at 133.35 116.84 0)
+	(label "SPI2"
+		(at 124.46 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3943,10 +3907,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "26f45fdd-1aba-40a2-bbe3-f5ea16a0823a")
+		(uuid "3de8ede4-4d07-4b25-b7c6-ce2f52cc702e")
 	)
-	(label "SPI4"
-		(at 130.81 116.84 180)
+	(label "IO12"
+		(at 175.26 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4df07aa6-ad69-48d3-91e7-db5ab71cebdc")
+	)
+	(label "IO4"
+		(at 144.78 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3954,73 +3929,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "278fd4b9-7eae-4b2b-947b-0f9432b7eb61")
-	)
-	(label "IO37"
-		(at 134.62 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "28f31ca8-3cdf-4c2f-852b-eaa59d8e6cc5")
-	)
-	(label "IO4"
-		(at 134.62 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2f6db75a-a3ef-4364-a01d-ac69b4a72315")
-	)
-	(label "IO13"
-		(at 175.26 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3dd62a56-a624-418c-9a7c-45cfc86382cb")
-	)
-	(label "IO19"
-		(at 134.62 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "462e36dc-a784-4338-81ef-b89ed94ab548")
-	)
-	(label "SD_CLK"
-		(at 133.35 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cf395d2-4183-49f7-b349-92e48eb50871")
-	)
-	(label "IO15"
-		(at 175.26 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "552c446c-4cc4-4073-ac36-3f55631d3272")
+		(uuid "51b4c5e2-3e6f-4cf9-afd4-bd6d78dfee52")
 	)
 	(label "VSYS"
 		(at 266.7 48.26 180)
@@ -4033,6 +3942,39 @@
 		)
 		(uuid "5dc181d0-78f1-49ad-bade-fda63f435bf4")
 	)
+	(label "VDD_SDIO"
+		(at 134.62 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62ae41cf-5c6e-4d26-a3e8-a29000bf1611")
+	)
+	(label "IO5"
+		(at 175.26 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67023af2-0c9e-4ece-b0be-90081c2bbd63")
+	)
+	(label "IO34"
+		(at 144.78 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "68194bed-7760-4603-a41c-414a6f0ebf7a")
+	)
 	(label "BATTERY_TEMP"
 		(at 266.7 53.34 180)
 		(fields_autoplaced yes)
@@ -4044,7 +3986,40 @@
 		)
 		(uuid "6adf5cb9-f2f8-4d0f-ab9e-a24dd0ab6a7e")
 	)
-	(label "IO33"
+	(label "IO9"
+		(at 175.26 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7095e296-3061-4544-bc09-ebcef5a2ec9d")
+	)
+	(label "IO35"
+		(at 144.78 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "723971bc-de68-4e4b-804c-9ada3671822b")
+	)
+	(label "IO27"
+		(at 175.26 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72a22d6d-d063-45ae-ae1a-0f847aad4a24")
+	)
+	(label "IO23"
 		(at 175.26 109.22 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4053,62 +4028,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "6e8379ac-3939-433b-8acf-9ae6ecd08eff")
-	)
-	(label "IO36"
-		(at 134.62 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "78488f72-9251-4e5e-a448-524196bebd9e")
-	)
-	(label "IO35"
-		(at 134.62 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "799d02e6-c4ca-4710-8e93-b9899ada1216")
-	)
-	(label "IO16"
-		(at 134.62 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8237bde8-0364-49d2-8a11-9a4eacfb4fcc")
-	)
-	(label "SPI5"
-		(at 130.81 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "839a37bd-4b4b-42aa-be14-28942bfe4e59")
-	)
-	(label "IO38"
-		(at 134.62 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8753e474-fcd2-465e-866e-b62ea5d2d160")
+		(uuid "8d9482d8-4ef1-4a19-8bb6-dc74383012e1")
 	)
 	(label "IO0"
 		(at 175.26 86.36 0)
@@ -4132,19 +4052,8 @@
 		)
 		(uuid "910db945-1e36-41ff-aa19-c1e67e4b7b47")
 	)
-	(label "SD_D1"
-		(at 133.35 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99776f92-cda0-480b-8f33-c9cd5398330e")
-	)
-	(label "SPI2"
-		(at 130.81 121.92 180)
+	(label "IO18"
+		(at 144.78 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4152,18 +4061,62 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9d7bbabc-0408-4f88-b90b-ea7fce8c53c2")
+		(uuid "9aaacd11-fc98-47bd-b136-079469dbe47c")
 	)
-	(label "IO14"
-		(at 175.26 101.6 0)
+	(label "IO38"
+		(at 144.78 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "9efc8bef-c455-49cd-b93a-c8be9137ab41")
+		(uuid "a2b8a450-c312-400a-a8f5-c401ada51c3c")
+	)
+	(label "IO13"
+		(at 144.78 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6db068f-0c89-4eed-943f-ed214f163b2b")
+	)
+	(label "IO25"
+		(at 144.78 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7cb76c9-d039-4c04-87ad-5fd03583cb75")
+	)
+	(label "IO36"
+		(at 144.78 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8df718a-e43d-46e7-b478-e2ee2344e4f9")
+	)
+	(label "IO26"
+		(at 144.78 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac84cdb9-11a2-4f19-848f-2c9220b66001")
 	)
 	(label "+3V3"
 		(at 266.7 40.64 180)
@@ -4176,8 +4129,19 @@
 		)
 		(uuid "ae2067b7-d7ca-46d4-9c78-be7592ad5207")
 	)
-	(label "VDD_SDIO"
-		(at 133.35 111.76 0)
+	(label "IO19"
+		(at 144.78 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b095c1b9-088d-4f79-be01-e7702809b0f1")
+	)
+	(label "IO15"
+		(at 175.26 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4185,7 +4149,29 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "bbc5d7e0-4051-4840-a9a9-299995b865f6")
+		(uuid "b48084db-66e1-4075-ab37-125a478916b2")
+	)
+	(label "PSRAM_SIO1"
+		(at 134.62 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6a3f90e-f064-4fb1-951c-5ad9b590f625")
+	)
+	(label "PSRAM_SIO0"
+		(at 134.62 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbe85790-3e71-4a00-9431-eb2dbc18d6c2")
 	)
 	(label "IO39"
 		(at 220.98 124.46 180)
@@ -4198,19 +4184,19 @@
 		)
 		(uuid "be94a144-9286-4bb1-bdbc-6a01d720251e")
 	)
+	(label "IO33"
+		(at 144.78 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3b31f64-2322-449b-b1d8-307fb5a9293f")
+	)
 	(label "SPI3"
-		(at 130.81 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0039f98-5bb8-43c7-8dad-f0c511eba7d4")
-	)
-	(label "IO5"
-		(at 134.62 68.58 0)
+		(at 124.46 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4218,10 +4204,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c0cf5544-8292-44c2-ac61-a28489827908")
+		(uuid "c54a76eb-f52f-4e68-b2dd-a1a7f78cf505")
 	)
-	(label "SD_D0"
-		(at 133.35 127 0)
+	(label "IO22"
+		(at 175.26 106.68 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4229,18 +4215,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c411fe12-7c88-48f2-abf3-562c157c1221")
-	)
-	(label "SPI6"
-		(at 130.81 111.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c48dda6a-6f8c-4b38-b1b9-99ddf17cd0d7")
+		(uuid "c628419a-56a0-404a-ba9a-e3fc3109b1f0")
 	)
 	(label "RX0"
 		(at 266.7 68.58 180)
@@ -4252,6 +4227,17 @@
 			(justify right bottom)
 		)
 		(uuid "c8a14600-50c8-41e0-834b-c87d392c79aa")
+	)
+	(label "SPI5"
+		(at 124.46 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdf37ca7-db17-4409-8d28-b739ab753668")
 	)
 	(label "VBAT"
 		(at 238.76 111.76 180)
@@ -4275,8 +4261,8 @@
 		)
 		(uuid "d4eb412b-cffc-4793-8bfc-b16f2dbefe81")
 	)
-	(label "IO34"
-		(at 134.62 83.82 0)
+	(label "PSRAM_SIO3"
+		(at 134.62 114.3 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4284,29 +4270,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d4ff173d-0713-4d31-a5a8-08d6fb3ac966")
-	)
-	(label "SPI1"
-		(at 130.81 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d77d7fcb-4166-4d30-b55d-25dbc90cd910")
-	)
-	(label "SPI0"
-		(at 130.81 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "daf368a2-fc12-4d26-8084-ce05d9986496")
+		(uuid "e08985fe-1a3d-4207-ac93-1dc0dc68c461")
 	)
 	(label "+3V3"
 		(at 187.96 76.2 0)
@@ -4319,8 +4283,8 @@
 		)
 		(uuid "e2171ded-1777-4854-bfdb-dd9eda415019")
 	)
-	(label "SD_D3"
-		(at 133.35 114.3 0)
+	(label "SPI4"
+		(at 124.46 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4328,10 +4292,10 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e28019f8-b399-4912-b377-da302b58fb12")
+		(uuid "e316357e-b26a-409d-9343-0fe6d4b086dc")
 	)
-	(label "IO23"
-		(at 134.62 60.96 0)
+	(label "PSRAM_CS"
+		(at 134.62 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4339,21 +4303,21 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e5692a25-a3fc-479d-9bab-061b6092bcff")
+		(uuid "e62481b2-9d73-40a4-b8a3-f03c2411b60c")
 	)
-	(label "IO22"
-		(at 134.62 73.66 0)
+	(label "IO32"
+		(at 144.78 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e5a03484-7640-4b68-b551-b9ea95f58208")
+		(uuid "e77aa43d-2c6f-49db-a8c4-e60f831df337")
 	)
-	(label "IO18"
-		(at 134.62 66.04 0)
+	(label "SPI0"
+		(at 124.46 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4361,18 +4325,18 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e808f630-2d68-4d50-9532-601dd3fff1f8")
+		(uuid "e9224c31-c50a-4179-98bc-dad0a9be5acd")
 	)
-	(label "IO25"
-		(at 134.62 99.06 0)
+	(label "IO14"
+		(at 144.78 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "e98f2415-6460-417b-9cef-904c155ff5c5")
+		(uuid "ec539239-7542-4a6d-8757-4817e9f83c95")
 	)
 	(label "RX0"
 		(at 175.26 114.3 0)
@@ -4385,6 +4349,17 @@
 		)
 		(uuid "f28b89ec-5fa6-40b3-8227-b84c852aa1e7")
 	)
+	(label "IO37"
+		(at 144.78 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3108121-67ed-400d-8a77-b7925f591b8c")
+	)
 	(label "TX0"
 		(at 175.26 116.84 0)
 		(fields_autoplaced yes)
@@ -4396,8 +4371,8 @@
 		)
 		(uuid "f85aa9d6-d305-4676-be17-f6ba7df2fe7e")
 	)
-	(label "SD_CMD"
-		(at 133.35 119.38 0)
+	(label "PSRAM_SIO2"
+		(at 134.62 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4405,29 +4380,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fc43271b-a7c0-4b48-94e2-e693b5bcf5e9")
-	)
-	(label "IO12"
-		(at 175.26 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc690ea3-7dd1-4d19-93b0-52c280e890ab")
-	)
-	(label "IO27"
-		(at 175.26 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff1813b4-ee89-4860-a024-b75d49852f25")
+		(uuid "fdc1b42d-454f-40d7-ae6e-47bdbddd3d5f")
 	)
 	(global_label "IO[0..39]"
 		(shape bidirectional)
