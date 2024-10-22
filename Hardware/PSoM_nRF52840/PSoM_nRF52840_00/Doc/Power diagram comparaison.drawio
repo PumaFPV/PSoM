@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
   <diagram name="Page-1" id="37xFmPrKESr_D6VwMqft">
-    <mxGraphModel dx="819" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,6 +52,15 @@
         </mxCell>
         <mxCell id="eHanUoyydb_Xu9FaMhbz-28" value="VDD" style="rounded=0;whiteSpace=wrap;html=1;" parent="eHanUoyydb_Xu9FaMhbz-10" vertex="1">
           <mxGeometry y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8llFOmbX5BSG2Civw5Fi-1" value="VDDIO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="eHanUoyydb_Xu9FaMhbz-10">
+          <mxGeometry x="120" y="100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8llFOmbX5BSG2Civw5Fi-2" value="3V3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="eHanUoyydb_Xu9FaMhbz-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="110" as="sourcePoint" />
+            <mxPoint x="120" y="110" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="eHanUoyydb_Xu9FaMhbz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="eHanUoyydb_Xu9FaMhbz-6" target="eHanUoyydb_Xu9FaMhbz-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
