@@ -3123,8 +3123,48 @@
 		(uuid "fb30b7e2-8e61-4edb-ac2c-bf5fcd5f6138")
 	)
 	(no_connect
+		(at 50.8 137.16)
+		(uuid "015bfcad-3e25-4dc9-8696-d3dd73234d24")
+	)
+	(no_connect
+		(at 50.8 129.54)
+		(uuid "0d91f2a0-dc5c-47a3-8747-a9ea74fdc21a")
+	)
+	(no_connect
+		(at 50.8 119.38)
+		(uuid "185bc39a-8020-4f20-b820-49136d0ab3dc")
+	)
+	(no_connect
+		(at 50.8 109.22)
+		(uuid "48c91c90-7cf0-4cdd-b633-46b6f345aa03")
+	)
+	(no_connect
+		(at 111.76 99.06)
+		(uuid "5f7af720-4187-4273-85d8-abe4778377a6")
+	)
+	(no_connect
 		(at 93.98 60.96)
 		(uuid "9e80eccc-7246-479d-a59e-039b9a072dcc")
+	)
+	(no_connect
+		(at 50.8 116.84)
+		(uuid "b2452dbd-5de4-4215-8f75-6519c6d4597e")
+	)
+	(no_connect
+		(at 50.8 132.08)
+		(uuid "d4c5a848-535c-4848-a60e-d4a256409c79")
+	)
+	(no_connect
+		(at 111.76 73.66)
+		(uuid "f91aa4ae-3b95-4f02-b6c9-3c621655c614")
+	)
+	(no_connect
+		(at 50.8 114.3)
+		(uuid "f96f37ec-9d78-4cb2-bfcd-75ca2bdb9c4c")
+	)
+	(no_connect
+		(at 111.76 134.62)
+		(uuid "fdacfb7d-3f79-4b0c-ae78-30de18d9ffdf")
 	)
 	(bus_entry
 		(at 251.46 86.36)
@@ -3940,6 +3980,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 15.24) (xy 271.78 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3fa1ad-9aee-41a3-b394-d071aae5eaca")
+	)
+	(wire
+		(pts
 			(xy 248.92 40.64) (xy 251.46 40.64)
 		)
 		(stroke
@@ -4667,16 +4717,6 @@
 			(type default)
 		)
 		(uuid "825fd1e1-9aac-4bb7-9b1a-bae474819150")
-	)
-	(wire
-		(pts
-			(xy 111.76 73.66) (xy 114.3 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e64c51-af5c-47ee-9993-7ff09703cff9")
 	)
 	(wire
 		(pts
@@ -6934,6 +6974,17 @@
 		)
 		(uuid "a3d4ebee-a554-40e0-b906-ec53af5821a2")
 	)
+	(label "VBAT_VOLTAGE_DIVIDER"
+		(at 269.24 15.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a628352c-45bb-47d3-b5c0-da46d19e372f")
+	)
 	(label "P31"
 		(at 48.26 111.76 180)
 		(fields_autoplaced yes)
@@ -7297,6 +7348,18 @@
 		)
 		(uuid "ffe8a5bf-2dc1-4ccb-9437-4859c1338c46")
 	)
+	(hierarchical_label "VBAT_VOLTAGE_DIVIDER"
+		(shape input)
+		(at 271.78 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6610b4fb-091e-4093-967a-7bd4343108dd")
+	)
 	(hierarchical_label "VDD_nRF"
 		(shape input)
 		(at 271.78 22.86 0)
@@ -7502,7 +7565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 144.78 0)
 			(effects
 				(font
@@ -7848,7 +7911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 150.8252 172.72 0)
 			(effects
 				(font
@@ -8116,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 125.4252 172.72 0)
 			(effects
 				(font
@@ -8264,7 +8327,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 206.7052 119.38 0)
 			(effects
 				(font
@@ -8334,7 +8397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 155.9052 119.38 0)
 			(effects
 				(font
@@ -8404,7 +8467,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 206.7052 144.78 0)
 			(effects
 				(font
@@ -8704,7 +8767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 163.5252 172.72 0)
 			(effects
 				(font
@@ -8773,7 +8836,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 89.8652 185.42 0)
 			(effects
 				(font
@@ -9000,7 +9063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 181.3052 119.38 0)
 			(effects
 				(font
@@ -9285,7 +9348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 119.38 0)
 			(effects
 				(font
@@ -9433,7 +9496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.0052 119.38 0)
 			(effects
 				(font
@@ -9640,7 +9703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 105.1052 185.42 0)
 			(effects
 				(font
@@ -10221,7 +10284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 168.6052 144.78 0)
 			(effects
 				(font
@@ -10370,7 +10433,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 181.3052 144.78 0)
 			(effects
 				(font
@@ -10440,7 +10503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 172.72 0)
 			(effects
 				(font
@@ -10510,7 +10573,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 194.0052 144.78 0)
 			(effects
 				(font
@@ -10893,7 +10956,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 156.21 190.5 90)
 			(effects
 				(font
@@ -11241,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 146.05 190.5 90)
 			(effects
 				(font

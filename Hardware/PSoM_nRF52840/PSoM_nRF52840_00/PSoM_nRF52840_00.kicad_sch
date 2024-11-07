@@ -160,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 71.12) (xy 109.22 116.84)
+			(xy 109.22 68.58) (xy 109.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -180,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 73.66) (xy 106.68 73.66)
+			(xy 101.6 71.12) (xy 106.68 71.12)
 		)
 		(stroke
 			(width 0)
@@ -190,7 +190,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 91.44 78.74)
+			(xy 78.74 76.2) (xy 78.74 78.74)
 		)
 		(stroke
 			(width 0)
@@ -200,7 +200,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 58.42) (xy 101.6 58.42)
+			(xy 121.92 55.88) (xy 101.6 55.88)
 		)
 		(stroke
 			(width 0)
@@ -210,7 +210,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 106.68 119.38)
+			(xy 106.68 71.12) (xy 106.68 119.38)
 		)
 		(stroke
 			(width 0)
@@ -230,7 +230,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 58.42) (xy 121.92 104.14)
+			(xy 121.92 55.88) (xy 121.92 104.14)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +260,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 111.76 68.58)
+			(xy 111.76 114.3) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -280,7 +280,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 109.22) (xy 116.84 63.5)
+			(xy 116.84 109.22) (xy 116.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -310,7 +310,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 101.6 68.58)
+			(xy 111.76 66.04) (xy 101.6 66.04)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +330,7 @@
 	)
 	(bus
 		(pts
-			(xy 114.3 66.04) (xy 114.3 111.76)
+			(xy 114.3 63.5) (xy 114.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 71.12) (xy 109.22 71.12)
+			(xy 101.6 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 119.38 106.68)
+			(xy 119.38 58.42) (xy 119.38 106.68)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +390,7 @@
 	)
 	(bus
 		(pts
-			(xy 101.6 66.04) (xy 114.3 66.04)
+			(xy 101.6 63.5) (xy 114.3 63.5)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +400,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 60.96) (xy 119.38 60.96)
+			(xy 101.6 58.42) (xy 119.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +410,7 @@
 	)
 	(bus
 		(pts
-			(xy 116.84 63.5) (xy 101.6 63.5)
+			(xy 116.84 60.96) (xy 101.6 60.96)
 		)
 		(stroke
 			(width 0)
@@ -420,7 +420,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 55.88) (xy 127 55.88)
+			(xy 101.6 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -440,7 +440,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 78.74 0)
+		(at 78.74 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -449,7 +449,7 @@
 		(fields_autoplaced yes)
 		(uuid "989eee80-f12f-4a1f-b06a-81421cd73e2e")
 		(property "Reference" "#PWR06"
-			(at 91.44 85.09 0)
+			(at 78.74 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 82.8755 0)
+			(at 78.74 82.8755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -466,7 +466,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 78.74 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,7 +475,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 78.74 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +484,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 78.74 0)
+			(at 78.74 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -707,7 +707,7 @@
 			(uuid "bf28c853-7d0d-4884-bea2-b60e0223862d")
 		)
 		(pin "BATTERY_TEMP" input
-			(at 127 55.88 180)
+			(at 127 53.34 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -805,7 +805,7 @@
 			)
 		)
 		(pin "D-" bidirectional
-			(at 101.6 60.96 0)
+			(at 101.6 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +825,7 @@
 			(uuid "ad79757c-54cb-432e-ae97-99513cba6df4")
 		)
 		(pin "D+" bidirectional
-			(at 101.6 58.42 0)
+			(at 101.6 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,7 +835,7 @@
 			(uuid "3a97858d-4733-4d07-a248-55bafbe0d59f")
 		)
 		(pin "GND" passive
-			(at 91.44 76.2 270)
+			(at 78.74 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +845,7 @@
 			(uuid "61a90eca-a477-4dbe-b776-5eb781c54ded")
 		)
 		(pin "IO[0..42]" bidirectional
-			(at 101.6 63.5 0)
+			(at 101.6 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +885,7 @@
 			(uuid "8f7d5dde-6d92-4f96-8e31-13460fb9bff9")
 		)
 		(pin "SPI[0..7]" bidirectional
-			(at 101.6 66.04 0)
+			(at 101.6 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +895,7 @@
 			(uuid "aeb9648a-59ea-4c2a-a795-94dd203a20c9")
 		)
 		(pin "BATTERY_TEMP" output
-			(at 101.6 55.88 0)
+			(at 101.6 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -915,7 +915,7 @@
 			(uuid "ea082394-cc94-498c-92cf-5084ce3da5e8")
 		)
 		(pin "SWDCLK" output
-			(at 101.6 68.58 0)
+			(at 101.6 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +925,7 @@
 			(uuid "d450592e-61ed-4eb8-86b1-1fa866c9611a")
 		)
 		(pin "SWDIO" input
-			(at 101.6 71.12 0)
+			(at 101.6 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +945,7 @@
 			(uuid "0d220c06-7f9d-4501-8702-cbb6ab893059")
 		)
 		(pin "RST" output
-			(at 101.6 73.66 0)
+			(at 101.6 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,6 +1081,16 @@
 				(justify right)
 			)
 			(uuid "50a75de0-8f78-480d-8d29-a4f9cb115357")
+		)
+		(pin "VBAT_VOLTAGE_DIVIDER" input
+			(at 127 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "66ea88f6-611e-4164-ad4a-9d7eb9195435")
 		)
 		(instances
 			(project "PSoM_nRF52840_00"

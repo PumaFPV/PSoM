@@ -2313,6 +2313,27 @@
 		)
 		(uuid "0bb29ade-fdb1-44e0-ba94-aac7a062f3ef")
 	)
+	(text "200mA"
+		(exclude_from_sim no)
+		(at 167.64 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "49827d03-214c-4432-84d0-b5a4f76c7520")
+	)
+	(text "Has to be between\n250k and 500k,\nInventory has 470k"
+		(exclude_from_sim no)
+		(at 104.14 124.46 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left)
+		)
+		(uuid "5ebc2ce9-6af1-4bd6-97e1-7e25956de8b1")
+	)
 	(text "VOUT1"
 		(exclude_from_sim no)
 		(at 200.66 81.28 0)
@@ -2323,6 +2344,16 @@
 			)
 		)
 		(uuid "5f652af0-58ea-467b-a302-f94d37bad58f")
+	)
+	(text "200mA"
+		(exclude_from_sim no)
+		(at 167.64 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c220a538-fff4-4cb8-a531-f0c94e1a4517")
 	)
 	(text "VOUT2"
 		(exclude_from_sim no)
@@ -2936,7 +2967,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 167.64 102.87 90)
 			(effects
 				(font
@@ -3006,7 +3037,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 221.9452 81.28 0)
 			(effects
 				(font
@@ -3076,7 +3107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 107.6452 88.9 0)
 			(effects
 				(font
@@ -3146,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 167.64 87.63 90)
 			(effects
 				(font
@@ -3700,7 +3731,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 97.4852 71.12 0)
 			(effects
 				(font
@@ -3903,7 +3934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 209.2452 81.28 0)
 			(effects
 				(font
@@ -3973,7 +4004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 116.84 119.38 0)
 			(effects
 				(font
@@ -4040,7 +4071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 89.662 120.65 90)
 			(effects
 				(font
@@ -4101,7 +4132,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "250k"
+		(property "Value" "470k"
 			(at 104.14 121.9199 0)
 			(effects
 				(font
@@ -4110,7 +4141,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 120.65 90)
 			(effects
 				(font
@@ -4247,7 +4278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 181.3052 106.68 0)
 			(effects
 				(font
@@ -4384,7 +4415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 181.3052 91.44 0)
 			(effects
 				(font
@@ -4454,7 +4485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.6452 78.74 0)
 			(effects
 				(font
@@ -4524,7 +4555,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 81.28 0)
 			(effects
 				(font
