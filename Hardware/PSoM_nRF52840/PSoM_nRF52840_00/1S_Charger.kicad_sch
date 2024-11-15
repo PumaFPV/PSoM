@@ -2388,6 +2388,17 @@
 		)
 		(uuid "0e2e781d-c1b2-4852-8743-66a771a529c0")
 	)
+	(label "VSET1"
+		(at 106.68 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2fa73b19-c57c-447e-8020-9ce714481e9d")
+	)
 	(label "VBUS"
 		(at 93.98 68.58 180)
 		(fields_autoplaced yes)
@@ -2597,6 +2608,17 @@
 		)
 		(uuid "e112e012-a0fa-464c-8389-0afb57794d36")
 	)
+	(label "VSET2"
+		(at 106.68 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eba8dd8a-44fd-4067-b31d-90b7415a6965")
+	)
 	(label "SCL"
 		(at 121.92 124.46 180)
 		(fields_autoplaced yes)
@@ -2607,6 +2629,17 @@
 			(justify right bottom)
 		)
 		(uuid "ee997953-8a8f-40ea-853e-77ebfeb86dc6")
+	)
+	(label "SHIP"
+		(at 114.3 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f649a2ae-fb93-47fd-8a20-ac6636140961")
 	)
 	(label "VSYS"
 		(at 266.7 22.86 180)
