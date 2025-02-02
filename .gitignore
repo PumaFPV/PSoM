@@ -1,0 +1,9 @@
+# Only files necessary for KiCAD
+# Schematics
+*.kicad_sch
+# PCB
+*.kicad_pcb
+# PRL ???
+*.kicad_prl
+# Project
+*.kicad_pro

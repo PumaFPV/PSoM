@@ -4168,7 +4168,7 @@
 		)
 		(uuid "f137dba3-d11b-4955-b853-040cc4c4c6fd")
 	)
-	(text "Internally PD\nNeeds to be PD for boot\nRecommanded as GPO\n-> Used for internal LED"
+	(text "Internally PD\nNeeds to be PD for boot\nRecommended as GPO\n-> Used for internal LED"
 		(exclude_from_sim no)
 		(at 193.04 132.08 0)
 		(effects
@@ -4235,7 +4235,6 @@
 	)
 	(label "PSRAM_SIO1"
 		(at 104.14 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4246,7 +4245,6 @@
 	)
 	(label "PSRAM_CLK"
 		(at 104.14 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4257,7 +4255,6 @@
 	)
 	(label "IO12"
 		(at 226.06 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4268,7 +4265,6 @@
 	)
 	(label "IO26"
 		(at 71.12 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4279,7 +4275,6 @@
 	)
 	(label "RX0"
 		(at 83.82 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4290,7 +4285,6 @@
 	)
 	(label "PSRAM_SIO2"
 		(at 205.74 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4301,7 +4295,6 @@
 	)
 	(label "SPI0"
 		(at 213.36 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4312,7 +4305,6 @@
 	)
 	(label "IO23"
 		(at 241.3 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4323,7 +4315,6 @@
 	)
 	(label "PSRAM_SIO3"
 		(at 205.74 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4334,7 +4325,6 @@
 	)
 	(label "IO18"
 		(at 104.14 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4345,7 +4335,6 @@
 	)
 	(label "TX0"
 		(at 86.36 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4356,7 +4345,6 @@
 	)
 	(label "IO37"
 		(at 55.88 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4355,6 @@
 	)
 	(label "IO0"
 		(at 91.44 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4365,6 @@
 	)
 	(label "IO26"
 		(at 241.3 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4389,7 +4375,6 @@
 	)
 	(label "IO38"
 		(at 241.3 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4385,6 @@
 	)
 	(label "IO9"
 		(at 241.3 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4411,7 +4395,6 @@
 	)
 	(label "VDD_SDIO"
 		(at 104.14 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4405,6 @@
 	)
 	(label "IO13"
 		(at 83.82 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,7 +4415,6 @@
 	)
 	(label "IO37"
 		(at 241.3 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4444,7 +4425,6 @@
 	)
 	(label "EN"
 		(at 264.16 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,7 +4435,6 @@
 	)
 	(label "IO32"
 		(at 55.88 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4466,7 +4445,6 @@
 	)
 	(label "IO5"
 		(at 241.3 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4477,7 +4455,6 @@
 	)
 	(label "SPI1"
 		(at 213.36 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4465,6 @@
 	)
 	(label "EN"
 		(at 144.78 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,7 +4475,6 @@
 	)
 	(label "IO2"
 		(at 203.2 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4510,7 +4485,6 @@
 	)
 	(label "IO33"
 		(at 66.04 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4521,7 +4495,6 @@
 	)
 	(label "TX0"
 		(at 264.16 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,7 +4505,6 @@
 	)
 	(label "IO25"
 		(at 68.58 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4543,7 +4515,6 @@
 	)
 	(label "SPI5"
 		(at 213.36 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4554,7 +4525,6 @@
 	)
 	(label "IO14"
 		(at 76.2 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4565,7 +4535,6 @@
 	)
 	(label "IO15"
 		(at 86.36 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4576,7 +4545,6 @@
 	)
 	(label "IO38"
 		(at 55.88 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,7 +4555,6 @@
 	)
 	(label "IO22"
 		(at 88.9 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4598,7 +4565,6 @@
 	)
 	(label "PSRAM_SIO0"
 		(at 104.14 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4609,7 +4575,6 @@
 	)
 	(label "IO18"
 		(at 241.3 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4585,6 @@
 	)
 	(label "PSRAM_CS"
 		(at 205.74 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4595,6 @@
 	)
 	(label "IO12"
 		(at 78.74 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,7 +4605,6 @@
 	)
 	(label "IO27"
 		(at 241.3 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4653,7 +4615,6 @@
 	)
 	(label "IO35"
 		(at 55.88 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4664,7 +4625,6 @@
 	)
 	(label "IO0"
 		(at 180.34 142.24 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,7 +4635,6 @@
 	)
 	(label "IO39"
 		(at 55.88 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4645,6 @@
 	)
 	(label "IO35"
 		(at 241.3 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4697,7 +4655,6 @@
 	)
 	(label "IO19"
 		(at 91.44 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4708,7 +4665,6 @@
 	)
 	(label "LAN_IN"
 		(at 53.34 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4719,7 +4675,6 @@
 	)
 	(label "LAN_IN"
 		(at 172.72 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4730,7 +4685,6 @@
 	)
 	(label "PSRAM_SIO3"
 		(at 104.14 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4741,7 +4695,6 @@
 	)
 	(label "IO19"
 		(at 241.3 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4752,7 +4705,6 @@
 	)
 	(label "SPI4"
 		(at 213.36 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4763,7 +4715,6 @@
 	)
 	(label "IO21"
 		(at 81.28 73.66 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4774,7 +4725,6 @@
 	)
 	(label "IO4"
 		(at 241.3 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4785,7 +4735,6 @@
 	)
 	(label "IO32"
 		(at 241.3 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4796,7 +4745,6 @@
 	)
 	(label "IO9"
 		(at 104.14 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4807,7 +4755,6 @@
 	)
 	(label "SPI3"
 		(at 213.36 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4818,7 +4765,6 @@
 	)
 	(label "IO36"
 		(at 55.88 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4829,7 +4775,6 @@
 	)
 	(label "IO15"
 		(at 254 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4840,7 +4785,6 @@
 	)
 	(label "PSRAM_SIO2"
 		(at 104.14 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4851,7 +4795,6 @@
 	)
 	(label "IO39"
 		(at 241.3 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4862,7 +4805,6 @@
 	)
 	(label "IO0"
 		(at 241.3 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4873,7 +4815,6 @@
 	)
 	(label "IO36"
 		(at 241.3 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,7 +4825,6 @@
 	)
 	(label "SPI2"
 		(at 213.36 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4895,7 +4835,6 @@
 	)
 	(label "IO4"
 		(at 93.98 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4906,7 +4845,6 @@
 	)
 	(label "IO13"
 		(at 241.3 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4917,7 +4855,6 @@
 	)
 	(label "IO34"
 		(at 241.3 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4928,7 +4865,6 @@
 	)
 	(label "LED_NET"
 		(at 203.2 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4939,7 +4875,6 @@
 	)
 	(label "EN"
 		(at 55.88 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4950,7 +4885,6 @@
 	)
 	(label "RX0"
 		(at 264.16 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4961,7 +4895,6 @@
 	)
 	(label "VDD_SDIO"
 		(at 205.74 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,7 +4905,6 @@
 	)
 	(label "SPI6"
 		(at 213.36 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4983,7 +4915,6 @@
 	)
 	(label "IO21"
 		(at 241.3 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4994,7 +4925,6 @@
 	)
 	(label "IO12"
 		(at 241.3 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5005,7 +4935,6 @@
 	)
 	(label "IO2"
 		(at 88.9 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5016,7 +4945,6 @@
 	)
 	(label "IO25"
 		(at 241.3 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5027,7 +4955,6 @@
 	)
 	(label "IO5"
 		(at 104.14 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5038,7 +4965,6 @@
 	)
 	(label "PSRAM_CS"
 		(at 104.14 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5049,7 +4975,6 @@
 	)
 	(label "PSRAM_SIO1"
 		(at 205.74 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,7 +4985,6 @@
 	)
 	(label "IO27"
 		(at 73.66 121.92 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5071,7 +4995,6 @@
 	)
 	(label "IO33"
 		(at 241.3 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5082,7 +5005,6 @@
 	)
 	(label "ANT"
 		(at 154.94 74.93 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5093,7 +5015,6 @@
 	)
 	(label "IO22"
 		(at 241.3 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5104,7 +5025,6 @@
 	)
 	(label "PSRAM_CLK"
 		(at 205.74 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5115,7 +5035,6 @@
 	)
 	(label "PSRAM_SIO0"
 		(at 205.74 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5126,7 +5045,6 @@
 	)
 	(label "IO15"
 		(at 241.3 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5137,7 +5055,6 @@
 	)
 	(label "IO34"
 		(at 55.88 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5148,7 +5065,6 @@
 	)
 	(label "IO23"
 		(at 104.14 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5159,7 +5075,6 @@
 	)
 	(label "IO5"
 		(at 276.86 144.78 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5170,7 +5085,6 @@
 	)
 	(label "IO14"
 		(at 241.3 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5182,7 +5096,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 266.7 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5194,7 +5107,6 @@
 	(hierarchical_label "IO[0..39]"
 		(shape bidirectional)
 		(at 246.38 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5206,7 +5118,6 @@
 	(hierarchical_label "SPI[0..6]"
 		(shape bidirectional)
 		(at 215.9 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5218,7 +5129,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 266.7 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5230,7 +5140,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 266.7 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5242,7 +5151,6 @@
 	(hierarchical_label "TX0"
 		(shape output)
 		(at 266.7 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5254,7 +5162,6 @@
 	(hierarchical_label "RX0"
 		(shape input)
 		(at 266.7 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

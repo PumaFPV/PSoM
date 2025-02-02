@@ -1922,7 +1922,6 @@
 	)
 	(label "LED_PG"
 		(at 213.36 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1933,7 +1932,6 @@
 	)
 	(label "ILIM"
 		(at 127 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1944,7 +1942,6 @@
 	)
 	(label "EN1"
 		(at 129.54 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1955,7 +1952,6 @@
 	)
 	(label "BQ_PGOOD"
 		(at 111.76 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1966,7 +1962,6 @@
 	)
 	(label "VSYS"
 		(at 132.08 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1977,7 +1972,6 @@
 	)
 	(label "BQ_CHG"
 		(at 223.52 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1988,7 +1982,6 @@
 	)
 	(label "VBUS"
 		(at 266.7 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1999,7 +1992,6 @@
 	)
 	(label "VBUS"
 		(at 91.44 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2010,7 +2002,6 @@
 	)
 	(label "VSYS"
 		(at 213.36 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2021,7 +2012,6 @@
 	)
 	(label "VSYS"
 		(at 106.68 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2032,7 +2022,6 @@
 	)
 	(label "LED_CHG"
 		(at 223.52 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2043,7 +2032,6 @@
 	)
 	(label "VBAT"
 		(at 73.66 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2054,7 +2042,6 @@
 	)
 	(label "BQ_PGOOD"
 		(at 213.36 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2065,7 +2052,6 @@
 	)
 	(label "TMR"
 		(at 111.76 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2076,7 +2062,6 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 91.44 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2087,7 +2072,6 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 266.7 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2098,7 +2082,6 @@
 	)
 	(label "EN1"
 		(at 109.22 106.68 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2109,7 +2092,6 @@
 	)
 	(label "VSYS"
 		(at 142.24 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2120,7 +2102,6 @@
 	)
 	(label "BQ_CHG"
 		(at 127 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2131,7 +2112,6 @@
 	)
 	(label "EN2"
 		(at 129.54 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2142,7 +2122,6 @@
 	)
 	(label "VBAT"
 		(at 266.7 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2153,7 +2132,6 @@
 	)
 	(label "VBAT"
 		(at 93.98 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2164,7 +2142,6 @@
 	)
 	(label "EN2"
 		(at 106.68 106.68 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2175,7 +2152,6 @@
 	)
 	(label "BQ_CE"
 		(at 88.9 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2186,7 +2162,6 @@
 	)
 	(label "ISET"
 		(at 106.68 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2197,7 +2172,6 @@
 	)
 	(label "SYSOFF"
 		(at 109.22 76.2 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2208,7 +2182,6 @@
 	)
 	(label "VSYS"
 		(at 266.7 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2220,7 +2193,6 @@
 	(hierarchical_label "BATTERY_TEMP"
 		(shape input)
 		(at 269.24 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2232,7 +2204,6 @@
 	(hierarchical_label "VBAT"
 		(shape bidirectional)
 		(at 269.24 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2244,7 +2215,6 @@
 	(hierarchical_label "VSYS"
 		(shape output)
 		(at 269.24 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2256,7 +2226,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 269.24 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2268,7 +2237,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 269.24 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

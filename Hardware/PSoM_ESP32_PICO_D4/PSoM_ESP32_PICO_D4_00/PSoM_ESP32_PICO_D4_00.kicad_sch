@@ -410,7 +410,6 @@
 	)
 	(label "3V3"
 		(at 88.9 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -421,7 +420,6 @@
 	)
 	(label "3V3"
 		(at 88.9 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -432,7 +430,6 @@
 	)
 	(label "3V3"
 		(at 160.02 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -443,7 +440,6 @@
 	)
 	(label "VBUS"
 		(at 96.52 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -454,7 +450,6 @@
 	)
 	(label "VSYS"
 		(at 147.32 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -465,7 +460,6 @@
 	)
 	(label "VBUS"
 		(at 152.4 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -476,7 +470,6 @@
 	)
 	(label "VSYS"
 		(at 91.44 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -487,7 +480,6 @@
 	)
 	(label "VSYS"
 		(at 91.44 99.06 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -498,7 +490,6 @@
 	)
 	(label "VBAT"
 		(at 149.86 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -509,7 +500,6 @@
 	)
 	(label "VBAT"
 		(at 93.98 22.86 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

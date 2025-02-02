@@ -1055,7 +1055,6 @@
 	)
 	(label "VSYS"
 		(at 86.36 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,7 +1065,6 @@
 	)
 	(label "VSYS"
 		(at 264.16 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1077,7 +1075,6 @@
 	)
 	(label "PRIM_LDO_EN"
 		(at 109.22 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1088,7 +1085,6 @@
 	)
 	(label "VSYS"
 		(at 106.68 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1100,7 +1096,6 @@
 	(hierarchical_label "+3V3"
 		(shape output)
 		(at 266.7 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1112,7 +1107,6 @@
 	(hierarchical_label "VSYS"
 		(shape input)
 		(at 266.7 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1124,7 +1118,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 266.7 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
