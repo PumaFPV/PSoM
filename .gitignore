@@ -1,9 +1,12 @@
-# Only files necessary for KiCAD
+#Ignore all files in KiCAD projects
+/Hardware/PSoM_ESP32_PICO_D4/PSoM_ESP32_PICO_D4_00/*
+
+# Except  files necessary for pieces design
 # Schematics
-*.kicad_sch
+!/Hardware/PSoM_ESP32_PICO_D4/PSoM_ESP32_PICO_D4_00/*.kicad_sch
 # PCB
-*.kicad_pcb
+!/Hardware/PSoM_ESP32_PICO_D4/PSoM_ESP32_PICO_D4_00/*.kicad_pcb
 # PRL ???
-*.kicad_prl
+!/Hardware/PSoM_ESP32_PICO_D4/PSoM_ESP32_PICO_D4_00/*.kicad_prl
 # Project
-*.kicad_pro
+!/Hardware/PSoM_ESP32_PICO_D4/PSoM_ESP32_PICO_D4_00/*.kicad_pro
