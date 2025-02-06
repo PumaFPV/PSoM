@@ -2481,15 +2481,6 @@
 		(uuid "09efffdd-ad63-482e-8def-8016f040fc3d")
 	)
 	(bus_entry
-		(at 180.34 114.3)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a0d1cfb-7e9f-469f-bdb8-c6dc094badba")
-	)
-	(bus_entry
 		(at 180.34 101.6)
 		(size 2.54 -2.54)
 		(stroke
@@ -2778,15 +2769,6 @@
 		(uuid "c9b40eab-a4e7-4cee-a220-818742112520")
 	)
 	(bus_entry
-		(at 180.34 116.84)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db11b868-8609-4921-9f2b-4f4557f41f29")
-	)
-	(bus_entry
 		(at 129.54 111.76)
 		(size -2.54 2.54)
 		(stroke
@@ -2804,16 +2786,6 @@
 			(type default)
 		)
 		(uuid "01a8ef27-08a8-4e05-852e-841e73848ac5")
-	)
-	(bus
-		(pts
-			(xy 182.88 109.22) (xy 182.88 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03815223-1d0a-453d-ad89-4e5f70426289")
 	)
 	(bus
 		(pts
@@ -3136,16 +3108,6 @@
 			(type default)
 		)
 		(uuid "345a5d42-09c4-4176-a3ab-456ec242691f")
-	)
-	(wire
-		(pts
-			(xy 170.18 114.3) (xy 180.34 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "347245f8-e4b7-414b-869b-8ced22d0229e")
 	)
 	(wire
 		(pts
@@ -3583,16 +3545,6 @@
 		)
 		(uuid "7a6b3eab-80bd-4377-924c-911f50dbff6a")
 	)
-	(wire
-		(pts
-			(xy 170.18 116.84) (xy 180.34 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8087df18-3c93-4370-829f-583660066b50")
-	)
 	(bus
 		(pts
 			(xy 137.16 68.58) (xy 137.16 71.12)
@@ -3796,6 +3748,16 @@
 		)
 		(uuid "af85025a-d0b0-4784-842a-034205ac58c8")
 	)
+	(wire
+		(pts
+			(xy 170.18 116.84) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af86038a-207b-47fd-af0d-a16b6368bf10")
+	)
 	(bus
 		(pts
 			(xy 182.88 91.44) (xy 182.88 93.98)
@@ -3876,16 +3838,6 @@
 			(type default)
 		)
 		(uuid "b7b58923-cf00-45f8-9f7b-a7e326d3e121")
-	)
-	(bus
-		(pts
-			(xy 182.88 111.76) (xy 182.88 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b90d8da0-6604-4abd-a69d-644dac9134cc")
 	)
 	(wire
 		(pts
@@ -4049,7 +4001,7 @@
 	)
 	(bus
 		(pts
-			(xy 182.88 114.3) (xy 182.88 116.84)
+			(xy 182.88 109.22) (xy 182.88 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4301,6 +4253,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 114.3) (xy 175.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9600bf6-9885-4699-afa2-fc09908bcd87")
+	)
+	(wire
+		(pts
 			(xy 129.54 121.92) (xy 149.86 121.92)
 		)
 		(stroke
@@ -4356,7 +4318,6 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 139.7 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4367,7 +4328,6 @@
 	)
 	(label "VSYS"
 		(at 180.34 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4378,7 +4338,6 @@
 	)
 	(label "SWDIO"
 		(at 256.54 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4389,7 +4348,6 @@
 	)
 	(label "VBAT"
 		(at 256.54 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4400,7 +4358,6 @@
 	)
 	(label "SPI7"
 		(at 134.62 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4411,7 +4368,6 @@
 	)
 	(label "D-"
 		(at 68.58 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4422,7 +4378,6 @@
 	)
 	(label "VBUS"
 		(at 256.54 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4433,7 +4388,6 @@
 	)
 	(label "VBAT"
 		(at 180.34 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4444,7 +4398,6 @@
 	)
 	(label "SPIWP"
 		(at 139.7 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4455,7 +4408,6 @@
 	)
 	(label "D-"
 		(at 177.8 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4466,7 +4418,6 @@
 	)
 	(label "SPI4"
 		(at 134.62 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4477,7 +4428,6 @@
 	)
 	(label "D+"
 		(at 68.58 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4488,7 +4438,6 @@
 	)
 	(label "P25"
 		(at 144.78 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4499,7 +4448,6 @@
 	)
 	(label "P42"
 		(at 175.26 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4510,7 +4458,6 @@
 	)
 	(label "D+"
 		(at 177.8 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4521,7 +4468,6 @@
 	)
 	(label "P44"
 		(at 175.26 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4532,7 +4478,6 @@
 	)
 	(label "CC2"
 		(at 66.04 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4543,7 +4488,6 @@
 	)
 	(label "SPICLK"
 		(at 139.7 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4554,7 +4498,6 @@
 	)
 	(label "P15"
 		(at 144.78 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4565,7 +4508,6 @@
 	)
 	(label "P46"
 		(at 175.26 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4576,7 +4518,6 @@
 	)
 	(label "D+"
 		(at 256.54 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4587,7 +4528,6 @@
 	)
 	(label "VSYS"
 		(at 256.54 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4598,7 +4538,6 @@
 	)
 	(label "P39"
 		(at 144.78 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4609,7 +4548,6 @@
 	)
 	(label "P27"
 		(at 144.78 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4620,7 +4558,6 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 256.54 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4631,7 +4568,6 @@
 	)
 	(label "SPICS1"
 		(at 139.7 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4642,7 +4578,6 @@
 	)
 	(label "P36"
 		(at 175.26 99.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4651,9 +4586,18 @@
 		)
 		(uuid "7e8bba68-f6d8-4018-9907-a5f87711f51b")
 	)
+	(label "SWDIO"
+		(at 175.26 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "809a5dd2-8559-430f-bd98-1588489a6dab")
+	)
 	(label "SPI5"
 		(at 134.62 114.3 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4664,7 +4608,6 @@
 	)
 	(label "P37"
 		(at 144.78 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4675,7 +4618,6 @@
 	)
 	(label "P5"
 		(at 144.78 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4628,6 @@
 	)
 	(label "P32"
 		(at 175.26 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4697,7 +4638,6 @@
 	)
 	(label "P23"
 		(at 144.78 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4708,7 +4648,6 @@
 	)
 	(label "P35"
 		(at 144.78 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4719,7 +4658,6 @@
 	)
 	(label "P29"
 		(at 144.78 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4730,7 +4668,6 @@
 	)
 	(label "IO0"
 		(at 175.26 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4741,7 +4678,6 @@
 	)
 	(label "P11"
 		(at 144.78 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4753,7 +4689,6 @@
 	)
 	(label "RST"
 		(at 175.26 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4762,9 +4697,18 @@
 		)
 		(uuid "910db945-1e36-41ff-aa19-c1e67e4b7b47")
 	)
+	(label "SWDCLK"
+		(at 175.26 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92c0de0d-1825-463c-8fb0-4200a6b25bc9")
+	)
 	(label "SPIQ"
 		(at 139.7 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4775,7 +4719,6 @@
 	)
 	(label "SPI2"
 		(at 134.62 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4786,7 +4729,6 @@
 	)
 	(label "D-"
 		(at 256.54 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4797,7 +4739,6 @@
 	)
 	(label "+3V3"
 		(at 256.54 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4808,7 +4749,6 @@
 	)
 	(label "RST"
 		(at 256.54 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4819,7 +4759,6 @@
 	)
 	(label "VDD_SPI"
 		(at 139.7 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4830,7 +4769,6 @@
 	)
 	(label "P33"
 		(at 144.78 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4841,7 +4779,6 @@
 	)
 	(label "P13"
 		(at 144.78 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4852,7 +4789,6 @@
 	)
 	(label "P21"
 		(at 144.78 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4863,7 +4799,6 @@
 	)
 	(label "SPI3"
 		(at 134.62 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4874,7 +4809,6 @@
 	)
 	(label "CC1"
 		(at 66.04 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4885,7 +4819,6 @@
 	)
 	(label "SPID"
 		(at 139.7 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4896,7 +4829,6 @@
 	)
 	(label "SPI6"
 		(at 134.62 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4907,7 +4839,6 @@
 	)
 	(label "CC2"
 		(at 256.54 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4918,7 +4849,6 @@
 	)
 	(label "SWDCLK"
 		(at 256.54 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4929,7 +4859,6 @@
 	)
 	(label "VBUS"
 		(at 187.96 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4940,7 +4869,6 @@
 	)
 	(label "P9"
 		(at 144.78 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4951,7 +4879,6 @@
 	)
 	(label "SPI1"
 		(at 134.62 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4962,7 +4889,6 @@
 	)
 	(label "SPI0"
 		(at 134.62 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4973,7 +4899,6 @@
 	)
 	(label "P40"
 		(at 175.26 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4984,7 +4909,6 @@
 	)
 	(label "+3V3"
 		(at 187.96 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4995,7 +4919,6 @@
 	)
 	(label "SPIHD"
 		(at 139.7 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5006,7 +4929,6 @@
 	)
 	(label "P17"
 		(at 144.78 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +4939,6 @@
 	)
 	(label "P34"
 		(at 175.26 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5028,7 +4949,6 @@
 	)
 	(label "P30"
 		(at 175.26 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5039,7 +4959,6 @@
 	)
 	(label "P7"
 		(at 144.78 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5050,7 +4969,6 @@
 	)
 	(label "P38"
 		(at 175.26 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5060,8 +4978,7 @@
 		(uuid "f46d473d-5c57-4368-ace7-34e99a160ec0")
 	)
 	(label "P52"
-		(at 175.26 114.3 0)
-		(fields_autoplaced yes)
+		(at 175.26 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5072,7 +4989,6 @@
 	)
 	(label "CC1"
 		(at 256.54 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5083,7 +4999,6 @@
 	)
 	(label "SPICS0"
 		(at 139.7 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5094,7 +5009,6 @@
 	)
 	(label "P31"
 		(at 144.78 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5105,7 +5019,6 @@
 	)
 	(label "P19"
 		(at 144.78 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5205,7 +5118,6 @@
 	(hierarchical_label "VBAT"
 		(shape bidirectional)
 		(at 259.08 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5217,7 +5129,6 @@
 	(hierarchical_label "+3V3"
 		(shape input)
 		(at 259.08 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5229,7 +5140,6 @@
 	(hierarchical_label "CC2"
 		(shape bidirectional)
 		(at 259.08 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5241,7 +5151,6 @@
 	(hierarchical_label "VSYS"
 		(shape input)
 		(at 259.08 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5253,7 +5162,6 @@
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 259.08 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5265,7 +5173,6 @@
 	(hierarchical_label "SWDCLK"
 		(shape output)
 		(at 259.08 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5277,7 +5184,6 @@
 	(hierarchical_label "BATTERY_TEMP"
 		(shape output)
 		(at 259.08 50.8 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5289,7 +5195,6 @@
 	(hierarchical_label "CC1"
 		(shape bidirectional)
 		(at 259.08 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5301,7 +5206,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 259.08 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5313,7 +5217,6 @@
 	(hierarchical_label "SPI[0..7]"
 		(shape bidirectional)
 		(at 259.08 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5325,7 +5228,6 @@
 	(hierarchical_label "P[0..52]"
 		(shape bidirectional)
 		(at 259.08 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5337,7 +5239,6 @@
 	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 259.08 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5349,7 +5250,6 @@
 	(hierarchical_label "VBUS"
 		(shape output)
 		(at 259.08 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5361,7 +5261,6 @@
 	(hierarchical_label "RST"
 		(shape output)
 		(at 259.08 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5373,7 +5272,6 @@
 	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 259.08 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
