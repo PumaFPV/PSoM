@@ -12,158 +12,6 @@
 		(comment 1 "Design by: NdG")
 	)
 	(lib_symbols
-		(symbol "Component lib:2450AT18A100E"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "ANT"
-				(at 6.35 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "2450AT18A100E"
-				(at 6.35 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "ANTC3216X140N"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf"
-				(at 6.35 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Antennas 2.45GHz ANTENNA"
-				(at 6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.4"
-				(at 6.35 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "609-2450AT18A100E"
-				(at 6.35 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18A100E?qs=yCnrNFeXz%252BjzOYKPg7LGCw%3D%3D"
-				(at 6.35 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "JOHANSON TECHNOLOGY"
-				(at 6.35 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "2450AT18A100E"
-				(at 6.35 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "2450AT18A100E_0_1"
-				(polyline
-					(pts
-						(xy 0 7.62) (xy 0 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 7.62) (xy 0 2.54) (xy -1.27 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "2450AT18A100E_1_1"
-				(pin input line
-					(at 0 0 90)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Component lib:C"
 			(pin_numbers hide)
 			(pin_names
@@ -731,6 +579,176 @@
 					(at 0 -7.62 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Component_lib:2450AT18A100E"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ANT"
+				(at 6.35 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "2450AT18A100E"
+				(at 6.35 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Component_lib:ANTC3216X140N"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Antennas 2.45GHz ANTENNA"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.4"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "609-2450AT18A100E"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18A100E?qs=yCnrNFeXz%252BjzOYKPg7LGCw%3D%3D"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JOHANSON TECHNOLOGY"
+				(at 6.35 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "2450AT18A100E"
+				(at 6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "2450AT18A100E_0_1"
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy 0 2.54) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2450AT18A100E_1_1"
+				(pin input line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -2.54 0 90)
+					(length 2.54) hide
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3815,6 +3833,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 190.5) (xy 162.56 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1840123f-8f7c-4eb4-97c6-dae3e97e18e9")
+	)
+	(wire
+		(pts
 			(xy 154.94 147.32) (xy 167.64 147.32)
 		)
 		(stroke
@@ -3822,6 +3850,16 @@
 			(type default)
 		)
 		(uuid "1875b9a4-0263-4d2e-9efd-ee12a78fa79f")
+	)
+	(wire
+		(pts
+			(xy 269.24 58.42) (xy 271.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bad503c-cc15-4b47-ab41-dad1785753f5")
 	)
 	(wire
 		(pts
@@ -4095,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 114.3 66.04)
+			(xy 111.76 66.04) (xy 119.38 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4252,16 +4290,6 @@
 			(type default)
 		)
 		(uuid "4f2b88bc-1f91-4cad-9447-1c89fcb40bd4")
-	)
-	(wire
-		(pts
-			(xy 160.02 190.5) (xy 162.56 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f35adf9-8d1b-48cc-aa08-514d5fb143e1")
 	)
 	(wire
 		(pts
@@ -4785,7 +4813,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 58.42) (xy 271.78 58.42)
+			(xy 269.24 68.58) (xy 271.78 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +4983,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 114.3 68.58)
+			(xy 111.76 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5032,6 +5060,16 @@
 			(type default)
 		)
 		(uuid "a1c73f1b-50d4-47f9-b10e-80ead183b397")
+	)
+	(wire
+		(pts
+			(xy 269.24 63.5) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54cb39b-9a66-49af-bae3-bde74fdda729")
 	)
 	(wire
 		(pts
@@ -5115,7 +5153,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 60.96) (xy 269.24 58.42)
+			(xy 269.24 71.12) (xy 269.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5245,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 190.5) (xy 152.4 190.5)
+			(xy 149.86 190.5) (xy 154.94 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5956,7 +5994,7 @@
 	)
 	(text "I2C"
 		(exclude_from_sim no)
-		(at 121.92 66.04 0)
+		(at 124.46 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6377,6 +6415,7 @@
 	)
 	(label "P27"
 		(at 114.3 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6387,6 +6426,7 @@
 	)
 	(label "P35"
 		(at 248.92 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6397,6 +6437,7 @@
 	)
 	(label "P31"
 		(at 248.92 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6407,6 +6448,7 @@
 	)
 	(label "P9"
 		(at 248.92 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6417,6 +6459,7 @@
 	)
 	(label "P15"
 		(at 248.92 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6427,6 +6470,7 @@
 	)
 	(label "P40"
 		(at 114.3 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6437,6 +6481,7 @@
 	)
 	(label "P15"
 		(at 114.3 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6447,6 +6492,7 @@
 	)
 	(label "P46"
 		(at 248.92 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6457,6 +6503,7 @@
 	)
 	(label "P33"
 		(at 48.26 139.7 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6467,6 +6514,7 @@
 	)
 	(label "DEC1"
 		(at 180.34 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6477,6 +6525,7 @@
 	)
 	(label "P13"
 		(at 114.3 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6487,6 +6536,7 @@
 	)
 	(label "SPIQ"
 		(at 114.3 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6497,6 +6547,7 @@
 	)
 	(label "VBUS"
 		(at 167.64 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6507,6 +6558,7 @@
 	)
 	(label "P38"
 		(at 114.3 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6517,6 +6569,7 @@
 	)
 	(label "DECUSB"
 		(at 76.2 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6527,6 +6580,7 @@
 	)
 	(label "NFC2"
 		(at 114.3 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6537,6 +6591,7 @@
 	)
 	(label "SPI0"
 		(at 231.14 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6547,6 +6602,7 @@
 	)
 	(label "VDD_nRF"
 		(at 81.28 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6557,6 +6613,7 @@
 	)
 	(label "P29"
 		(at 48.26 134.62 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6567,6 +6624,7 @@
 	)
 	(label "ANT_MATCH"
 		(at 195.58 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6575,8 +6633,20 @@
 		)
 		(uuid "1da0921f-ccf2-4072-b126-74c41bc09fdf")
 	)
+	(label "DCC_DEC4"
+		(at 152.4 190.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f3630a9-768c-442d-a9d6-9dea457e1329")
+	)
 	(label "DEC2"
 		(at 193.04 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6585,8 +6655,20 @@
 		)
 		(uuid "1fab2125-c543-4637-9e4d-63d6e4a22cd7")
 	)
+	(label "SDA"
+		(at 269.24 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "204e3fc9-474b-4b74-92fe-caeeb91c51a0")
+	)
 	(label "NFC1"
 		(at 53.34 170.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6597,6 +6679,7 @@
 	)
 	(label "P7"
 		(at 248.92 25.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6607,6 +6690,7 @@
 	)
 	(label "P9"
 		(at 114.3 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6617,6 +6701,7 @@
 	)
 	(label "P36"
 		(at 114.3 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6627,6 +6712,7 @@
 	)
 	(label "P52"
 		(at 48.26 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6637,6 +6723,7 @@
 	)
 	(label "P13"
 		(at 248.92 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6647,6 +6734,7 @@
 	)
 	(label "SPICLK"
 		(at 223.52 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6657,6 +6745,7 @@
 	)
 	(label "P44"
 		(at 248.92 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6667,6 +6756,7 @@
 	)
 	(label "SPI1"
 		(at 231.14 25.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6677,6 +6767,7 @@
 	)
 	(label "P23"
 		(at 48.26 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6687,6 +6778,7 @@
 	)
 	(label "VDD_nRF"
 		(at 180.34 132.08 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6697,6 +6789,7 @@
 	)
 	(label "P32"
 		(at 248.92 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6707,6 +6800,7 @@
 	)
 	(label "P21"
 		(at 114.3 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6717,6 +6811,7 @@
 	)
 	(label "SDWDIO"
 		(at 48.26 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6727,6 +6822,7 @@
 	)
 	(label "SDWDIO"
 		(at 269.24 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6737,6 +6833,7 @@
 	)
 	(label "nRESET"
 		(at 233.68 137.16 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6747,6 +6844,7 @@
 	)
 	(label "P44"
 		(at 114.3 127 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6757,6 +6855,7 @@
 	)
 	(label "NFC1"
 		(at 114.3 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6767,6 +6866,7 @@
 	)
 	(label "SPI5"
 		(at 231.14 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6777,6 +6877,7 @@
 	)
 	(label "DEC5"
 		(at 162.56 162.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6787,6 +6888,7 @@
 	)
 	(label "P5"
 		(at 248.92 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6797,6 +6899,7 @@
 	)
 	(label "P36"
 		(at 248.92 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6807,6 +6910,7 @@
 	)
 	(label "SPIHD"
 		(at 223.52 35.56 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6817,6 +6921,7 @@
 	)
 	(label "P5"
 		(at 114.3 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6826,7 +6931,8 @@
 		(uuid "5038019b-367f-4b35-8069-5313a67be14b")
 	)
 	(label "DEC4_6"
-		(at 162.56 190.5 0)
+		(at 165.1 190.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6837,6 +6943,7 @@
 	)
 	(label "VBUS"
 		(at 86.36 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6847,6 +6954,7 @@
 	)
 	(label "SPICS1"
 		(at 114.3 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6857,6 +6965,7 @@
 	)
 	(label "P11"
 		(at 248.92 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6868,6 +6977,7 @@
 	)
 	(label "DEC4_6"
 		(at 73.66 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6878,6 +6988,7 @@
 	)
 	(label "SPICS1"
 		(at 223.52 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6888,6 +6999,7 @@
 	)
 	(label "DEC3"
 		(at 66.04 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6896,8 +7008,20 @@
 		)
 		(uuid "69a31b79-9196-422a-8661-c5a3e4966e92")
 	)
+	(label "SDA"
+		(at 119.38 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6abbcd3e-c6dd-4b11-8a6b-5c76df58470f")
+	)
 	(label "P46"
 		(at 48.26 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6908,6 +7032,7 @@
 	)
 	(label "SPIQ"
 		(at 223.52 25.4 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6918,6 +7043,7 @@
 	)
 	(label "VDD_nRF"
 		(at 269.24 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6928,6 +7054,7 @@
 	)
 	(label "P37"
 		(at 248.92 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6938,6 +7065,7 @@
 	)
 	(label "DEC3"
 		(at 205.74 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6948,6 +7076,7 @@
 	)
 	(label "SPID"
 		(at 48.26 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6958,6 +7087,7 @@
 	)
 	(label "XC1"
 		(at 48.26 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6968,6 +7098,7 @@
 	)
 	(label "P52"
 		(at 248.92 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6978,6 +7109,7 @@
 	)
 	(label "SWDCLK"
 		(at 48.26 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6988,6 +7120,7 @@
 	)
 	(label "LNA_IN"
 		(at 152.4 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6998,6 +7131,7 @@
 	)
 	(label "DEC5"
 		(at 71.12 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7008,6 +7142,7 @@
 	)
 	(label "VBUS"
 		(at 269.24 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7018,6 +7153,7 @@
 	)
 	(label "XC2"
 		(at 48.26 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7028,6 +7164,7 @@
 	)
 	(label "DECUSB"
 		(at 154.94 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7038,6 +7175,7 @@
 	)
 	(label "nRESET"
 		(at 269.24 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7048,6 +7186,7 @@
 	)
 	(label "P17"
 		(at 114.3 139.7 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7058,6 +7197,7 @@
 	)
 	(label "DEC1"
 		(at 60.96 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7068,6 +7208,7 @@
 	)
 	(label "SPI4"
 		(at 231.14 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7078,6 +7219,7 @@
 	)
 	(label "VDD_nRF"
 		(at 213.36 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7088,6 +7230,7 @@
 	)
 	(label "DCC"
 		(at 139.7 190.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7098,6 +7241,7 @@
 	)
 	(label "SPICS0"
 		(at 223.52 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7108,6 +7252,7 @@
 	)
 	(label "ANT_IN"
 		(at 185.42 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7118,6 +7263,7 @@
 	)
 	(label "P11"
 		(at 48.26 121.92 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7129,6 +7275,7 @@
 	)
 	(label "P30"
 		(at 114.3 129.54 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7139,6 +7286,7 @@
 	)
 	(label "P34"
 		(at 114.3 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7149,6 +7297,7 @@
 	)
 	(label "XC1"
 		(at 88.9 175.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7159,6 +7308,7 @@
 	)
 	(label "P7"
 		(at 114.3 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7169,6 +7319,7 @@
 	)
 	(label "SPI3"
 		(at 231.14 30.48 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7177,8 +7328,20 @@
 		)
 		(uuid "a3d4ebee-a554-40e0-b906-ec53af5821a2")
 	)
+	(label "SCL"
+		(at 119.38 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a660d6ae-c1cf-4c8a-89e0-f98ad95aaab4")
+	)
 	(label "P31"
 		(at 48.26 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7189,6 +7352,7 @@
 	)
 	(label "ANT_OUT"
 		(at 215.9 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7199,6 +7363,7 @@
 	)
 	(label "P23"
 		(at 248.92 45.72 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7209,6 +7374,7 @@
 	)
 	(label "P17"
 		(at 248.92 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,6 +7385,7 @@
 	)
 	(label "nRESET"
 		(at 40.64 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7229,6 +7396,7 @@
 	)
 	(label "P34"
 		(at 248.92 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7239,6 +7407,7 @@
 	)
 	(label "NFC2"
 		(at 53.34 172.72 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7249,6 +7418,7 @@
 	)
 	(label "P42"
 		(at 248.92 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7259,6 +7429,7 @@
 	)
 	(label "P33"
 		(at 248.92 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7269,6 +7440,7 @@
 	)
 	(label "SPIHD"
 		(at 114.3 116.84 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7279,6 +7451,7 @@
 	)
 	(label "SPI2"
 		(at 231.14 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7289,6 +7462,7 @@
 	)
 	(label "SPICLK"
 		(at 114.3 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,6 +7473,7 @@
 	)
 	(label "P32"
 		(at 114.3 132.08 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,6 +7484,7 @@
 	)
 	(label "P42"
 		(at 114.3 124.46 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7319,6 +7495,7 @@
 	)
 	(label "SPI7"
 		(at 231.14 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7329,6 +7506,7 @@
 	)
 	(label "XC2"
 		(at 104.14 175.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7339,6 +7517,7 @@
 	)
 	(label "P38"
 		(at 248.92 76.2 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7349,6 +7528,7 @@
 	)
 	(label "P40"
 		(at 248.92 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7359,6 +7539,7 @@
 	)
 	(label "SPICS0"
 		(at 48.26 83.82 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7369,6 +7550,7 @@
 	)
 	(label "DCC"
 		(at 91.44 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7379,6 +7561,7 @@
 	)
 	(label "DEC4_6"
 		(at 137.16 160.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7389,6 +7572,7 @@
 	)
 	(label "LED_NET"
 		(at 269.24 142.24 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7399,6 +7583,7 @@
 	)
 	(label "SPIWP"
 		(at 223.52 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7409,6 +7594,7 @@
 	)
 	(label "P25"
 		(at 114.3 137.16 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7419,6 +7605,7 @@
 	)
 	(label "P39"
 		(at 48.26 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7429,6 +7616,7 @@
 	)
 	(label "VDD_SPI"
 		(at 223.52 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7439,6 +7627,7 @@
 	)
 	(label "P27"
 		(at 248.92 50.8 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7449,6 +7638,7 @@
 	)
 	(label "SPI6"
 		(at 231.14 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7459,6 +7649,7 @@
 	)
 	(label "P21"
 		(at 248.92 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7469,6 +7660,7 @@
 	)
 	(label "P19"
 		(at 114.3 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7477,8 +7669,20 @@
 		)
 		(uuid "d659227d-4a43-4dce-9bb0-69971e91678f")
 	)
+	(label "SCL"
+		(at 269.24 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d6da4c18-96bb-49b8-8a19-80045652bae6")
+	)
 	(label "P25"
 		(at 248.92 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7489,6 +7693,7 @@
 	)
 	(label "SPID"
 		(at 223.52 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7499,6 +7704,7 @@
 	)
 	(label "P29"
 		(at 248.92 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7509,6 +7715,7 @@
 	)
 	(label "P19"
 		(at 248.92 40.64 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,6 +7726,7 @@
 	)
 	(label "SPIWP"
 		(at 114.3 121.92 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7529,6 +7737,7 @@
 	)
 	(label "P37"
 		(at 114.3 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7539,6 +7748,7 @@
 	)
 	(label "D+"
 		(at 48.26 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7549,6 +7759,7 @@
 	)
 	(label "DEC2"
 		(at 63.5 55.88 90)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7559,6 +7770,7 @@
 	)
 	(label "P35"
 		(at 114.3 93.98 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7569,6 +7781,7 @@
 	)
 	(label "SWDCLK"
 		(at 269.24 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7579,6 +7792,7 @@
 	)
 	(label "ANT_IN"
 		(at 170.18 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7589,6 +7803,7 @@
 	)
 	(label "P39"
 		(at 248.92 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7599,6 +7814,7 @@
 	)
 	(label "D-"
 		(at 269.24 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7609,6 +7825,7 @@
 	)
 	(label "LNA_IN"
 		(at 48.26 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7619,6 +7836,7 @@
 	)
 	(label "P30"
 		(at 248.92 55.88 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7629,6 +7847,7 @@
 	)
 	(label "D+"
 		(at 269.24 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7639,6 +7858,7 @@
 	)
 	(label "D-"
 		(at 48.26 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7647,9 +7867,34 @@
 		)
 		(uuid "ffe8a5bf-2dc1-4ccb-9437-4859c1338c46")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 271.78 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e5d1612-ae03-4209-aca0-a9b0730faa1d")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 271.78 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "52fef3e8-af27-47ac-a97b-a16c935ab854")
+	)
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 271.78 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7661,6 +7906,7 @@
 	(hierarchical_label "VDD_nRF"
 		(shape input)
 		(at 271.78 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7672,6 +7918,7 @@
 	(hierarchical_label "P[0..52]"
 		(shape bidirectional)
 		(at 254 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7683,6 +7930,7 @@
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 271.78 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7694,6 +7942,7 @@
 	(hierarchical_label "SPI[0..7]"
 		(shape bidirectional)
 		(at 233.68 17.78 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7704,7 +7953,8 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 271.78 58.42 0)
+		(at 271.78 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7716,6 +7966,7 @@
 	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 271.78 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7727,6 +7978,7 @@
 	(hierarchical_label "SWDCLK"
 		(shape input)
 		(at 271.78 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7738,6 +7990,7 @@
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
 		(at 271.78 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,6 +8002,7 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 271.78 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8237,137 +8491,6 @@
 			(project "PSoM_nRF52840_HW00"
 				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
 					(reference "C410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Component lib:2450AT18A100E")
-		(at 215.9 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d532134-3b49-46f0-811b-8008765c7c29")
-		(property "Reference" "ANT?"
-			(at 218.44 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2450AT18A100E"
-			(at 218.44 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Component_lib:ANTC3216X140N"
-			(at 222.25 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf"
-			(at 222.25 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antennas 2.45GHz ANTENNA"
-			(at 222.25 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.4"
-			(at 222.25 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "609-2450AT18A100E"
-			(at 222.25 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18A100E?qs=yCnrNFeXz%252BjzOYKPg7LGCw%3D%3D"
-			(at 222.25 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JOHANSON TECHNOLOGY"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "2450AT18A100E"
-			(at 222.25 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "592aedd0-bc41-44a7-bdc9-40aafe93b90d")
-		)
-		(instances
-			(project "nRF52840"
-				(path "/1055a12c-de3d-4753-aef1-2b6e803dd877"
-					(reference "ANT?")
-					(unit 1)
-				)
-			)
-			(project "nRF52840"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
-					(reference "ANT450")
-					(unit 1)
-				)
-			)
-			(project "PMK_Keyboard"
-				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
-					(reference "ANT401")
 					(unit 1)
 				)
 			)
@@ -9319,6 +9442,129 @@
 			(project "PMK_Keyboard"
 				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
 					(reference "#PWR0415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Component_lib:2450AT18A100E")
+		(at 215.9 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e8e0130-649b-4dc0-9edf-dbe572daa7ff")
+		(property "Reference" "ANT450"
+			(at 218.44 73.0249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2450AT18A100E"
+			(at 218.44 75.5649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Component_lib:ANTC3216X140N"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.johansontechnology.com/datasheets/2450AT18A100/2450AT18A100.pdf"
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antennas 2.45GHz ANTENNA"
+			(at 222.25 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "609-2450AT18A100E"
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Johanson-Technology/2450AT18A100E?qs=yCnrNFeXz%252BjzOYKPg7LGCw%3D%3D"
+			(at 222.25 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JOHANSON TECHNOLOGY"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "2450AT18A100E"
+			(at 222.25 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71c4bd5d-1bff-4a7e-bfa2-00d720f29a25")
+		)
+		(pin "1"
+			(uuid "25b0db9e-4e86-4969-b920-e1ab7905b8ed")
+		)
+		(instances
+			(project ""
+				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
+					(reference "ANT450")
 					(unit 1)
 				)
 			)
@@ -10598,7 +10844,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 60.96 0)
+		(at 269.24 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10607,7 +10853,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0a4d0aa-9604-4ce8-9fca-a4b7bd520365")
 		(property "Reference" "#PWR?"
-			(at 269.24 67.31 0)
+			(at 269.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10616,7 +10862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 65.4034 0)
+			(at 269.24 75.5634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 60.96 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +10879,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 60.96 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10888,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 60.96 0)
+			(at 269.24 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11350,7 +11596,7 @@
 	)
 	(symbol
 		(lib_id "Component_lib:L")
-		(at 152.4 190.5 0)
+		(at 154.94 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11359,7 +11605,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3ed5e24-a9bb-4899-8076-b5f33f6e514f")
 		(property "Reference" "L403"
-			(at 156.21 185.42 0)
+			(at 158.75 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11367,7 +11613,7 @@
 			)
 		)
 		(property "Value" "15n"
-			(at 156.21 187.96 0)
+			(at 158.75 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11621,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
-			(at 156.21 190.5 90)
+			(at 158.75 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11384,7 +11630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 190.5 90)
+			(at 158.75 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11393,7 +11639,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 152.4 190.5 0)
+			(at 154.94 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1801,6 +1801,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 73.66) (xy 269.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "201b2325-1f11-4726-9d19-1abdb11dbbb3")
+	)
+	(wire
+		(pts
 			(xy 236.22 68.58) (xy 233.68 68.58)
 		)
 		(stroke
@@ -1961,7 +1971,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 68.58) (xy 266.7 68.58)
+			(xy 269.24 78.74) (xy 266.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2101,7 +2111,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 68.58) (xy 266.7 71.12)
+			(xy 266.7 78.74) (xy 266.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2378,6 +2388,16 @@
 			(type default)
 		)
 		(uuid "bb1f4f37-e443-408c-99fa-5efeb987c664")
+	)
+	(wire
+		(pts
+			(xy 266.7 68.58) (xy 269.24 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd2eb52-c1fe-4fb5-a007-b85e220b7db9")
 	)
 	(wire
 		(pts
@@ -2695,6 +2715,7 @@
 	)
 	(label "CC2"
 		(at 121.92 73.66 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2705,6 +2726,7 @@
 	)
 	(label "VBAT"
 		(at 104.14 78.74 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2713,8 +2735,20 @@
 		)
 		(uuid "0e2e781d-c1b2-4852-8743-66a771a529c0")
 	)
+	(label "SDA"
+		(at 266.7 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1f30e8c6-12ee-4945-9f04-91b3e9ac01f1")
+	)
 	(label "VSET1"
 		(at 106.68 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2725,6 +2759,7 @@
 	)
 	(label "VBUS"
 		(at 93.98 68.58 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2735,6 +2770,7 @@
 	)
 	(label "CC1"
 		(at 266.7 58.42 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,6 +2781,7 @@
 	)
 	(label "CC2"
 		(at 266.7 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2755,6 +2792,7 @@
 	)
 	(label "VBUS"
 		(at 266.7 27.94 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2765,6 +2803,7 @@
 	)
 	(label "LED2"
 		(at 76.2 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2775,6 +2814,7 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 121.92 81.28 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2785,6 +2825,7 @@
 	)
 	(label "VSYS"
 		(at 223.52 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2795,6 +2836,7 @@
 	)
 	(label "VBUS_OUT"
 		(at 266.7 33.02 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2805,6 +2847,7 @@
 	)
 	(label "LED1"
 		(at 66.04 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2815,6 +2858,7 @@
 	)
 	(label "LED2"
 		(at 121.92 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2825,6 +2869,7 @@
 	)
 	(label "LED0"
 		(at 121.92 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2835,6 +2880,7 @@
 	)
 	(label "LED0"
 		(at 55.88 99.06 270)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2845,6 +2891,7 @@
 	)
 	(label "3V3_nRF"
 		(at 182.88 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2855,6 +2902,7 @@
 	)
 	(label "VBUS_OUT"
 		(at 236.22 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2865,6 +2913,7 @@
 	)
 	(label "BATTERY_TEMP"
 		(at 266.7 43.18 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2875,6 +2924,7 @@
 	)
 	(label "SW2"
 		(at 162.56 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2885,6 +2935,7 @@
 	)
 	(label "SW1"
 		(at 162.56 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2895,6 +2946,7 @@
 	)
 	(label "CC1"
 		(at 121.92 71.12 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2905,6 +2957,7 @@
 	)
 	(label "3V3_nRF"
 		(at 165.1 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2913,8 +2966,20 @@
 		)
 		(uuid "a69c765c-da77-441a-9323-ace804899729")
 	)
+	(label "SCL"
+		(at 266.7 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ac34db7c-e5f4-4bcb-a405-7473ae94ce10")
+	)
 	(label "3V3_nRF"
 		(at 266.7 48.26 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2925,6 +2990,7 @@
 	)
 	(label "3V3_EXT"
 		(at 182.88 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2935,6 +3001,7 @@
 	)
 	(label "3V3_EXT"
 		(at 266.7 53.34 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2945,6 +3012,7 @@
 	)
 	(label "VSYS"
 		(at 66.04 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2955,6 +3023,7 @@
 	)
 	(label "VBAT"
 		(at 266.7 38.1 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2965,6 +3034,7 @@
 	)
 	(label "LED1"
 		(at 121.92 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2975,6 +3045,7 @@
 	)
 	(label "SDA"
 		(at 121.92 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2985,6 +3056,7 @@
 	)
 	(label "VSET2"
 		(at 106.68 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2995,6 +3067,7 @@
 	)
 	(label "SCL"
 		(at 121.92 124.46 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3005,6 +3078,7 @@
 	)
 	(label "SHIP"
 		(at 114.3 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3015,6 +3089,7 @@
 	)
 	(label "VSYS"
 		(at 266.7 22.86 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3026,6 +3101,7 @@
 	(hierarchical_label "BATTERY_TEMP"
 		(shape input)
 		(at 269.24 43.18 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3037,6 +3113,7 @@
 	(hierarchical_label "3V3_EXT"
 		(shape output)
 		(at 269.24 53.34 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3045,9 +3122,22 @@
 		)
 		(uuid "3099535d-9ae6-4387-bb4c-2f11bec64be9")
 	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 269.24 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4f16d137-11d7-4e4e-9ba5-1f943c9ffbad")
+	)
 	(hierarchical_label "VBAT"
 		(shape bidirectional)
 		(at 269.24 38.1 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3059,6 +3149,7 @@
 	(hierarchical_label "VSYS"
 		(shape output)
 		(at 269.24 22.86 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,6 +3161,7 @@
 	(hierarchical_label "3V3_nRF"
 		(shape output)
 		(at 269.24 48.26 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3080,7 +3172,8 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 269.24 68.58 0)
+		(at 269.24 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,9 +3182,22 @@
 		)
 		(uuid "91b3c623-f212-4bbd-8cfd-a617432346c6")
 	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 269.24 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4041155-3597-4ccd-beb4-09ad243c77ec")
+	)
 	(hierarchical_label "VBUS_OUT"
 		(shape output)
 		(at 269.24 33.02 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3103,6 +3209,7 @@
 	(hierarchical_label "CC2"
 		(shape bidirectional)
 		(at 269.24 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3114,6 +3221,7 @@
 	(hierarchical_label "CC1"
 		(shape bidirectional)
 		(at 269.24 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3125,6 +3233,7 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 269.24 27.94 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3431,7 +3540,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 76.2 92.71 0)
 			(effects
 				(font
@@ -3751,7 +3860,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 71.12 0)
+		(at 266.7 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3760,7 +3869,7 @@
 		(fields_autoplaced yes)
 		(uuid "612b8fbc-9c05-4fb1-90ad-04a14dd79f3e")
 		(property "Reference" "#PWR0202"
-			(at 266.7 77.47 0)
+			(at 266.7 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,7 +3878,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 75.5634 0)
+			(at 266.7 85.7234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 71.12 0)
+			(at 266.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3895,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 71.12 0)
+			(at 266.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3795,7 +3904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 266.7 71.12 0)
+			(at 266.7 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4742,7 +4851,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 55.88 92.71 0)
 			(effects
 				(font
@@ -4812,7 +4921,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 66.04 92.71 0)
 			(effects
 				(font

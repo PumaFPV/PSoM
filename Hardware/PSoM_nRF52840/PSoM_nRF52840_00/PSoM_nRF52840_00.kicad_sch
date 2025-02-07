@@ -200,6 +200,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 101.6) (xy 167.64 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3faa2bab-8956-444c-bd8c-7eb19054c13c")
+	)
+	(wire
+		(pts
 			(xy 121.92 55.88) (xy 101.6 55.88)
 		)
 		(stroke
@@ -250,7 +260,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 76.2) (xy 162.56 101.6)
+			(xy 160.02 76.2) (xy 160.02 101.6)
 		)
 		(stroke
 			(width 0)
@@ -310,6 +320,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 76.2) (xy 165.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c489de1-364a-47f0-910a-f31529441424")
+	)
+	(wire
+		(pts
 			(xy 111.76 66.04) (xy 101.6 66.04)
 		)
 		(stroke
@@ -340,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 167.64 78.74)
+			(xy 175.26 76.2) (xy 175.26 78.74)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 78.74 0)
+		(at 175.26 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -581,7 +601,7 @@
 		(fields_autoplaced yes)
 		(uuid "bfaa1bd3-b285-4f53-b50b-507057fa9e6c")
 		(property "Reference" "#PWR07"
-			(at 167.64 85.09 0)
+			(at 175.26 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +610,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 82.8755 0)
+			(at 175.26 82.8755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -598,7 +618,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -607,7 +627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -616,7 +636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 78.74 0)
+			(at 175.26 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +717,7 @@
 			(uuid "d85bc6b2-d887-428b-9b60-927e979207d7")
 		)
 		(pin "GND" passive
-			(at 167.64 76.2 270)
+			(at 175.26 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -737,7 +757,7 @@
 			(uuid "7884a555-a629-4026-85de-4be960a7f75e")
 		)
 		(pin "VBUS_OUT" output
-			(at 162.56 76.2 270)
+			(at 160.02 76.2 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,6 +785,26 @@
 				(justify left)
 			)
 			(uuid "196a0b0a-d8b4-4016-baec-10fba7ad4a66")
+		)
+		(pin "SCL" input
+			(at 167.64 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "bbb80e39-7f12-4f95-b4b8-6ef408a7e3fb")
+		)
+		(pin "SDA" bidirectional
+			(at 165.1 76.2 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c49cad96-3bc8-4c75-a3dd-c9e842558e92")
 		)
 		(instances
 			(project "PSoM_nRF52840_00"
@@ -1033,7 +1073,7 @@
 			(uuid "224df0dd-16a1-4c4b-828a-c900195c6f04")
 		)
 		(pin "VBUS" input
-			(at 162.56 101.6 90)
+			(at 160.02 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,6 +1131,26 @@
 				(justify left)
 			)
 			(uuid "4d9627c1-f63a-4710-a27a-126a93612a69")
+		)
+		(pin "SDA" bidirectional
+			(at 165.1 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0b5250e2-cf2c-4a21-bae6-7e9133a006b6")
+		)
+		(pin "SCL" output
+			(at 167.64 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0d968f99-8844-4105-849e-896033f9a54d")
 		)
 		(instances
 			(project "PSoM_nRF52840_00"
