@@ -611,38 +611,6 @@
         "pattern": "GND"
       },
       {
-        "netclass": "SPI",
-        "pattern": "\\SPI0"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI1"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI2"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI3"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI4"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI5"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI6"
-      },
-      {
-        "netclass": "SPI",
-        "pattern": "\\SPI7"
-      },
-      {
         "netclass": "UART",
         "pattern": "/100_Connectors/TX0"
       },

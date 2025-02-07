@@ -3895,16 +3895,6 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 231.14 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212bc05c-58ab-4919-b6e0-26242971e56b")
-	)
-	(wire
-		(pts
 			(xy 248.92 48.26) (xy 251.46 48.26)
 		)
 		(stroke
@@ -4832,6 +4822,16 @@
 			(type default)
 		)
 		(uuid "887e3250-cf07-4d16-89f2-fa2ae346edc1")
+	)
+	(wire
+		(pts
+			(xy 213.36 38.1) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8893b5d6-f195-46ca-8c3e-9c5a31e0d26c")
 	)
 	(wire
 		(pts
@@ -7075,6 +7075,16 @@
 			(justify right bottom)
 		)
 		(uuid "9b7bc1e0-0062-4666-8199-153ee0b1b69f")
+	)
+	(label "VDD_nRF"
+		(at 213.36 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9ba22b72-f2bd-4944-920b-23fd259196d9")
 	)
 	(label "DCC"
 		(at 139.7 190.5 180)
@@ -9672,7 +9682,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8264da62-c484-4416-a6a9-c3a6414f2604")
 		(property "Reference" "C421"
 			(at 171.45 114.2999 0)
