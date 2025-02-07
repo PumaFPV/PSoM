@@ -2441,8 +2441,16 @@
 		(uuid "28217cb8-8aa5-45a9-85e0-6fe711a63e3e")
 	)
 	(no_connect
+		(at 111.76 119.38)
+		(uuid "3f568f54-0f7c-4dda-b749-d06d06061993")
+	)
+	(no_connect
 		(at 63.5 78.74)
 		(uuid "45975b11-67b5-4e72-8e16-768afe6ac2bd")
+	)
+	(no_connect
+		(at 116.84 119.38)
+		(uuid "e73872ee-70a8-44eb-b640-2de1299b57a2")
 	)
 	(bus_entry
 		(at 137.16 71.12)
@@ -2535,15 +2543,6 @@
 		(uuid "348cdd4b-8401-4e6c-a923-4b2470967bd3")
 	)
 	(bus_entry
-		(at 129.54 116.84)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3553444a-b0a9-473d-ae97-6d51763f41da")
-	)
-	(bus_entry
 		(at 139.7 99.06)
 		(size -2.54 2.54)
 		(stroke
@@ -2632,6 +2631,15 @@
 			(type default)
 		)
 		(uuid "5fa95132-6a8b-4ac4-b08c-8dabb119912a")
+	)
+	(bus_entry
+		(at 127 119.38)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6745720d-1732-4bab-8d6c-bf47d70b7b67")
 	)
 	(bus_entry
 		(at 139.7 81.28)
@@ -2760,15 +2768,6 @@
 		(uuid "bc7619b2-c479-4e2a-b31e-dc88f3ffe657")
 	)
 	(bus_entry
-		(at 129.54 119.38)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9b40eab-a4e7-4cee-a220-818742112520")
-	)
-	(bus_entry
 		(at 129.54 111.76)
 		(size -2.54 2.54)
 		(stroke
@@ -2776,16 +2775,6 @@
 			(type default)
 		)
 		(uuid "dfa74c14-c71b-453a-95f8-c8ce3567ed40")
-	)
-	(wire
-		(pts
-			(xy 129.54 119.38) (xy 149.86 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01a8ef27-08a8-4e05-852e-841e73848ac5")
 	)
 	(bus
 		(pts
@@ -2817,6 +2806,16 @@
 		)
 		(uuid "0622039f-3e77-494b-9809-64e1b2b0455e")
 	)
+	(bus
+		(pts
+			(xy 127 119.38) (xy 127 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06cb04b9-1c8f-428b-a4db-f83f711fb41d")
+	)
 	(wire
 		(pts
 			(xy 256.54 20.32) (xy 256.54 22.86)
@@ -2847,6 +2846,16 @@
 			(type default)
 		)
 		(uuid "0a7d0bf6-d229-4c3c-b601-e45e7a7658a3")
+	)
+	(wire
+		(pts
+			(xy 139.7 119.38) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b381a05-48ec-4d0c-aee3-3aab0ab2d93b")
 	)
 	(bus
 		(pts
@@ -3051,7 +3060,7 @@
 	)
 	(bus
 		(pts
-			(xy 127 119.38) (xy 127 116.84)
+			(xy 127 116.84) (xy 127 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4079,16 +4088,6 @@
 		)
 		(uuid "df49b3f3-a637-4b5c-af11-d9578cb6dfc0")
 	)
-	(bus
-		(pts
-			(xy 127 124.46) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e18d8155-ad7d-4976-ad9a-bf10c6cc0be4")
-	)
 	(wire
 		(pts
 			(xy 50.8 86.36) (xy 50.8 88.9)
@@ -4139,16 +4138,6 @@
 			(type default)
 		)
 		(uuid "e783df20-d4e3-474d-8f50-ab73ffa6983f")
-	)
-	(bus
-		(pts
-			(xy 127 121.92) (xy 127 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9379174-1816-40b1-9541-c1f505f05a08")
 	)
 	(wire
 		(pts
@@ -4556,6 +4545,16 @@
 		)
 		(uuid "67ebce0a-e17c-463e-901a-0295b6cd02d0")
 	)
+	(label "SPICS0"
+		(at 116.84 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6814cd0e-009f-4a01-9389-9139704baa17")
+	)
 	(label "BATTERY_TEMP"
 		(at 256.54 50.8 180)
 		(effects
@@ -4565,6 +4564,16 @@
 			(justify right bottom)
 		)
 		(uuid "6adf5cb9-f2f8-4d0f-ab9e-a24dd0ab6a7e")
+	)
+	(label "SPI3"
+		(at 111.76 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70a9d95e-2f0c-4620-88ec-e7ea70332446")
 	)
 	(label "SPICS1"
 		(at 139.7 109.22 0)
@@ -4757,6 +4766,16 @@
 		)
 		(uuid "b24a45e9-50e5-46a5-9eba-a346909c8b4c")
 	)
+	(label "RST"
+		(at 139.7 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b52846cc-c493-44ab-a52a-a4273e019a6d")
+	)
 	(label "VDD_SPI"
 		(at 139.7 111.76 0)
 		(effects
@@ -4796,16 +4815,6 @@
 			(justify right bottom)
 		)
 		(uuid "bf7faa76-0316-4eea-beb2-e6d5309b4bab")
-	)
-	(label "SPI3"
-		(at 134.62 119.38 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0039f98-5bb8-43c7-8dad-f0c511eba7d4")
 	)
 	(label "CC1"
 		(at 66.04 55.88 0)
@@ -4996,16 +5005,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc291e63-dc5c-4a88-bf56-9f7cf66f7a14")
-	)
-	(label "SPICS0"
-		(at 139.7 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc43271b-a7c0-4b48-94e2-e693b5bcf5e9")
 	)
 	(label "P31"
 		(at 144.78 93.98 180)
