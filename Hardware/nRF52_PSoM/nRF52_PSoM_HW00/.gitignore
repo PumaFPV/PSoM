@@ -1,7 +1,0 @@
-#Ignoring:
-
-#Backups
-/nRF52_PSoM_HW00-backups/*
-
-#Cache
-/fp-info-cache
