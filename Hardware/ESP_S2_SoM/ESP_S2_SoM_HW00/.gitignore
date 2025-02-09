@@ -1,0 +1,7 @@
+#Ignoring:
+
+#Backups
+/ESP_S2_SoM_HW00-backups/*
+
+#Cache
+/fp-info-cache
