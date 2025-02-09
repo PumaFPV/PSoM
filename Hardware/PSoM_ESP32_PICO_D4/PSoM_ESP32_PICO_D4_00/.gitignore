@@ -1,0 +1,7 @@
+#Ignoring:
+
+#Backups
+/PSoM_ESP32_PICO_D4_00-backups/*
+
+#Cache
+/fp-info-cache
