@@ -6185,7 +6185,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ESP32-PICO-D4_1"
+		(property "Footprint" "Component_lib:ESP32-PICO-D4_1"
 			(at 113.03 50.165 0)
 			(effects
 				(font
@@ -6811,7 +6811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 28.9052 83.82 0)
 			(effects
 				(font
