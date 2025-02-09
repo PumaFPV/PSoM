@@ -2928,126 +2928,6 @@
 				)
 			)
 		)
-		(symbol "power:+3V3"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_names
@@ -7107,6 +6987,17 @@
 		)
 		(uuid "87e1bb32-1c0a-4920-b569-62a481c9300d")
 	)
+	(label "P36"
+		(at 121.92 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89739311-c282-4e6d-89bc-66ed318e7e8c")
+	)
 	(label "SWDCLK"
 		(at 48.26 86.36 180)
 		(fields_autoplaced yes)
@@ -7372,6 +7263,17 @@
 		)
 		(uuid "a93ff291-c335-4391-9b72-51a5dde0d678")
 	)
+	(label "P38"
+		(at 121.92 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a94e315d-bae2-405f-915e-123f656bb407")
+	)
 	(label "P17"
 		(at 248.92 38.1 180)
 		(fields_autoplaced yes)
@@ -7525,6 +7427,17 @@
 			(justify right bottom)
 		)
 		(uuid "be5d99c3-cebf-4310-9ed1-af2de0bda756")
+	)
+	(label "VDD_nRF"
+		(at 241.3 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bfd86340-6a8f-44af-bee8-4909f12e8d41")
 	)
 	(label "P40"
 		(at 248.92 81.28 180)
@@ -7736,7 +7649,7 @@
 		(uuid "dcece8ea-d049-469a-9437-683c942174a8")
 	)
 	(label "P37"
-		(at 114.3 96.52 0)
+		(at 114.3 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7769,7 +7682,7 @@
 		(uuid "e2b32e8c-c12c-46a5-a5ef-7cb2d02f8d2a")
 	)
 	(label "P35"
-		(at 114.3 93.98 0)
+		(at 114.3 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9984,84 +9897,6 @@
 			(project "PSoM_nRF52840_HW00"
 				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
 					(reference "C421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 241.3 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87bc94b5-866f-47a3-bf31-6030054999fe")
-		(property "Reference" "#PWR?"
-			(at 241.3 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 241.3 120.8842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48e0967a-b54f-49bf-8cec-92e501cae52f")
-		)
-		(instances
-			(project "nRF52840"
-				(path "/1055a12c-de3d-4753-aef1-2b6e803dd877"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "nRF52840"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
-					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-			(project "PMK_Keyboard"
-				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
-					(reference "#PWR0421")
 					(unit 1)
 				)
 			)

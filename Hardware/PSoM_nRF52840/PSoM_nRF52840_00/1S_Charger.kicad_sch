@@ -2890,7 +2890,7 @@
 		(uuid "8b777232-3150-499f-b1ad-0703416366e3")
 	)
 	(label "3V3_nRF"
-		(at 182.88 83.82 0)
+		(at 182.88 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2989,7 +2989,7 @@
 		(uuid "b93bdb81-a1b4-4a49-abfb-c1b36a9b1803")
 	)
 	(label "3V3_EXT"
-		(at 182.88 99.06 0)
+		(at 182.88 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
