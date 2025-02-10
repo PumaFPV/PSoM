@@ -3733,16 +3733,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 58.42) (xy 271.78 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bad503c-cc15-4b47-ab41-dad1785753f5")
-	)
-	(wire
-		(pts
 			(xy 154.94 134.62) (xy 167.64 134.62)
 		)
 		(stroke
@@ -4693,7 +4683,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 68.58) (xy 271.78 68.58)
+			(xy 269.24 58.42) (xy 271.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4933,16 +4923,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 63.5) (xy 271.78 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a54cb39b-9a66-49af-bae3-bde74fdda729")
-	)
-	(wire
-		(pts
 			(xy 167.64 144.78) (xy 167.64 147.32)
 		)
 		(stroke
@@ -5033,7 +5013,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 71.12) (xy 269.24 68.58)
+			(xy 269.24 60.96) (xy 269.24 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7105,16 +7085,6 @@
 		)
 		(uuid "a14b0c71-7b8c-4c2d-88da-7d899ded38db")
 	)
-	(label "P15"
-		(at 269.24 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3288fdd-43e0-4d6d-9a2d-a990360e256d")
-	)
 	(label "SPI3"
 		(at 231.14 30.48 180)
 		(effects
@@ -7455,16 +7425,6 @@
 		)
 		(uuid "d8403270-bdf4-4358-abc9-98c494f391a1")
 	)
-	(label "P13"
-		(at 269.24 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d94f7baf-2469-4e70-acde-1360bf2cbc2a")
-	)
 	(label "SPID"
 		(at 223.52 22.86 180)
 		(effects
@@ -7625,28 +7585,6 @@
 		)
 		(uuid "ffe8a5bf-2dc1-4ccb-9437-4859c1338c46")
 	)
-	(hierarchical_label "SCL"
-		(shape output)
-		(at 271.78 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e5d1612-ae03-4209-aca0-a9b0730faa1d")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 271.78 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "52fef3e8-af27-47ac-a97b-a16c935ab854")
-	)
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 271.78 53.34 0)
@@ -7704,7 +7642,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 271.78 68.58 0)
+		(at 271.78 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10512,7 +10450,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 71.12 0)
+		(at 269.24 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10521,7 +10459,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0a4d0aa-9604-4ce8-9fca-a4b7bd520365")
 		(property "Reference" "#PWR?"
-			(at 269.24 77.47 0)
+			(at 269.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10530,7 +10468,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.24 75.5634 0)
+			(at 269.24 65.4034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10538,7 +10476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 71.12 0)
+			(at 269.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10547,7 +10485,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 71.12 0)
+			(at 269.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 269.24 71.12 0)
+			(at 269.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -108,6 +108,12 @@
 			)
 		)
 	)
+	(junction
+		(at 116.84 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e369eb4d-430c-437d-bb08-50add65b1d97")
+	)
 	(wire
 		(pts
 			(xy 127 114.3) (xy 111.76 114.3)
@@ -147,6 +153,16 @@
 			(type default)
 		)
 		(uuid "20cc4666-61c0-4762-b789-b3a24eef0dd3")
+	)
+	(bus
+		(pts
+			(xy 116.84 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cacf005-651f-414b-862d-e6a1f7af6b8e")
 	)
 	(wire
 		(pts
@@ -197,16 +213,6 @@
 			(type default)
 		)
 		(uuid "3e13d4ab-357f-4e2a-b8ee-c0e2c8838bdc")
-	)
-	(wire
-		(pts
-			(xy 167.64 101.6) (xy 167.64 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3faa2bab-8956-444c-bd8c-7eb19054c13c")
 	)
 	(wire
 		(pts
@@ -317,16 +323,6 @@
 			(type default)
 		)
 		(uuid "993f5ad1-14de-408a-b9c8-1b26324617af")
-	)
-	(wire
-		(pts
-			(xy 165.1 76.2) (xy 165.1 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c489de1-364a-47f0-910a-f31529441424")
 	)
 	(wire
 		(pts
@@ -786,25 +782,15 @@
 			)
 			(uuid "196a0b0a-d8b4-4016-baec-10fba7ad4a66")
 		)
-		(pin "SCL" input
-			(at 167.64 76.2 270)
+		(pin "P[0..52]" bidirectional
+			(at 127 60.96 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "bbb80e39-7f12-4f95-b4b8-6ef408a7e3fb")
-		)
-		(pin "SDA" bidirectional
-			(at 165.1 76.2 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c49cad96-3bc8-4c75-a3dd-c9e842558e92")
+			(uuid "685840c0-186e-48a1-b36c-dca0a7709209")
 		)
 		(instances
 			(project "PSoM_nRF52840_00"
@@ -1131,26 +1117,6 @@
 				(justify left)
 			)
 			(uuid "4d9627c1-f63a-4710-a27a-126a93612a69")
-		)
-		(pin "SDA" bidirectional
-			(at 165.1 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0b5250e2-cf2c-4a21-bae6-7e9133a006b6")
-		)
-		(pin "SCL" output
-			(at 167.64 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0d968f99-8844-4105-849e-896033f9a54d")
 		)
 		(instances
 			(project "PSoM_nRF52840_00"
