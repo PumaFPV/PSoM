@@ -4013,16 +4013,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 66.04) (xy 119.38 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4349350b-cefc-491c-bf1d-4b097f97db5e")
-	)
-	(wire
-		(pts
 			(xy 149.86 175.26) (xy 149.86 172.72)
 		)
 		(stroke
@@ -4531,6 +4521,16 @@
 		)
 		(uuid "6c2539fd-752c-4d59-a773-8456550f856c")
 	)
+	(wire
+		(pts
+			(xy 111.76 66.04) (xy 114.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d675b3f-c8e4-4cf2-aa66-154c32eea1a7")
+	)
 	(bus
 		(pts
 			(xy 254 25.4) (xy 254 27.94)
@@ -4863,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 119.38 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9883af4b-5ca9-4918-abe8-cc76ef09583a")
-	)
-	(wire
-		(pts
 			(xy 223.52 33.02) (xy 231.14 33.02)
 		)
 		(stroke
@@ -4960,6 +4950,16 @@
 			(type default)
 		)
 		(uuid "a6c5ed75-3217-401c-82b9-ae8c8ed6c4d3")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8187f81-3515-48b5-8664-408e78913577")
 	)
 	(wire
 		(pts
@@ -6295,7 +6295,6 @@
 	)
 	(label "P27"
 		(at 114.3 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6306,7 +6305,6 @@
 	)
 	(label "P35"
 		(at 248.92 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6317,7 +6315,6 @@
 	)
 	(label "P31"
 		(at 248.92 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6328,7 +6325,6 @@
 	)
 	(label "P9"
 		(at 248.92 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6339,7 +6335,6 @@
 	)
 	(label "P15"
 		(at 248.92 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6350,7 +6345,6 @@
 	)
 	(label "P40"
 		(at 114.3 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6361,7 +6355,6 @@
 	)
 	(label "P15"
 		(at 114.3 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6372,7 +6365,6 @@
 	)
 	(label "P46"
 		(at 248.92 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6383,7 +6375,6 @@
 	)
 	(label "P33"
 		(at 48.26 139.7 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6394,7 +6385,6 @@
 	)
 	(label "DEC1"
 		(at 180.34 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6405,7 +6395,6 @@
 	)
 	(label "P13"
 		(at 114.3 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6416,7 +6405,6 @@
 	)
 	(label "SPIQ"
 		(at 114.3 119.38 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6427,7 +6415,6 @@
 	)
 	(label "VBUS"
 		(at 167.64 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6438,7 +6425,6 @@
 	)
 	(label "P38"
 		(at 114.3 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6449,7 +6435,6 @@
 	)
 	(label "DECUSB"
 		(at 76.2 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6460,7 +6445,6 @@
 	)
 	(label "NFC2"
 		(at 114.3 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6471,7 +6455,6 @@
 	)
 	(label "SPI0"
 		(at 231.14 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6482,7 +6465,6 @@
 	)
 	(label "VDD_nRF"
 		(at 81.28 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6493,7 +6475,6 @@
 	)
 	(label "P29"
 		(at 48.26 134.62 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6504,7 +6485,6 @@
 	)
 	(label "ANT_MATCH"
 		(at 195.58 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6515,7 +6495,6 @@
 	)
 	(label "DCC_DEC4"
 		(at 152.4 190.5 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6526,7 +6505,6 @@
 	)
 	(label "DEC2"
 		(at 193.04 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6535,20 +6513,8 @@
 		)
 		(uuid "1fab2125-c543-4637-9e4d-63d6e4a22cd7")
 	)
-	(label "SDA"
-		(at 269.24 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "204e3fc9-474b-4b74-92fe-caeeb91c51a0")
-	)
 	(label "NFC1"
 		(at 53.34 170.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6559,7 +6525,6 @@
 	)
 	(label "P7"
 		(at 248.92 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6570,7 +6535,6 @@
 	)
 	(label "P9"
 		(at 114.3 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6581,7 +6545,6 @@
 	)
 	(label "P36"
 		(at 114.3 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6592,7 +6555,6 @@
 	)
 	(label "P52"
 		(at 48.26 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6603,7 +6565,6 @@
 	)
 	(label "P13"
 		(at 248.92 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6614,7 +6575,6 @@
 	)
 	(label "SPICLK"
 		(at 223.52 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6625,7 +6585,6 @@
 	)
 	(label "P44"
 		(at 248.92 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6636,7 +6595,6 @@
 	)
 	(label "SPI1"
 		(at 231.14 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6647,7 +6605,6 @@
 	)
 	(label "P23"
 		(at 48.26 127 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6658,7 +6615,6 @@
 	)
 	(label "VDD_nRF"
 		(at 180.34 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6669,7 +6625,6 @@
 	)
 	(label "P32"
 		(at 248.92 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6680,7 +6635,6 @@
 	)
 	(label "P21"
 		(at 114.3 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6691,7 +6645,6 @@
 	)
 	(label "SDWDIO"
 		(at 48.26 88.9 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6702,7 +6655,6 @@
 	)
 	(label "SDWDIO"
 		(at 269.24 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6713,7 +6665,6 @@
 	)
 	(label "nRESET"
 		(at 233.68 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6724,7 +6675,6 @@
 	)
 	(label "P44"
 		(at 114.3 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6735,7 +6685,6 @@
 	)
 	(label "NFC1"
 		(at 114.3 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6746,7 +6695,6 @@
 	)
 	(label "SPI5"
 		(at 231.14 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6757,7 +6705,6 @@
 	)
 	(label "DEC5"
 		(at 162.56 162.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6768,7 +6715,6 @@
 	)
 	(label "P5"
 		(at 248.92 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +6725,6 @@
 	)
 	(label "P36"
 		(at 248.92 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6790,7 +6735,6 @@
 	)
 	(label "SPIHD"
 		(at 223.52 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6801,7 +6745,6 @@
 	)
 	(label "P5"
 		(at 114.3 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6812,7 +6755,6 @@
 	)
 	(label "DEC4_6"
 		(at 165.1 190.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6823,7 +6765,6 @@
 	)
 	(label "VBUS"
 		(at 86.36 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6834,7 +6775,6 @@
 	)
 	(label "SPICS1"
 		(at 114.3 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6845,7 +6785,6 @@
 	)
 	(label "P11"
 		(at 248.92 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6857,7 +6796,6 @@
 	)
 	(label "DEC4_6"
 		(at 73.66 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6868,7 +6806,6 @@
 	)
 	(label "SPICS1"
 		(at 223.52 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6879,7 +6816,6 @@
 	)
 	(label "DEC3"
 		(at 66.04 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6888,20 +6824,8 @@
 		)
 		(uuid "69a31b79-9196-422a-8661-c5a3e4966e92")
 	)
-	(label "SDA"
-		(at 119.38 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6abbcd3e-c6dd-4b11-8a6b-5c76df58470f")
-	)
 	(label "P46"
 		(at 48.26 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6912,7 +6836,6 @@
 	)
 	(label "SPIQ"
 		(at 223.52 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6923,7 +6846,6 @@
 	)
 	(label "VDD_nRF"
 		(at 269.24 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6934,7 +6856,6 @@
 	)
 	(label "P37"
 		(at 248.92 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6945,7 +6866,6 @@
 	)
 	(label "DEC3"
 		(at 205.74 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6956,7 +6876,6 @@
 	)
 	(label "SPID"
 		(at 48.26 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6967,7 +6886,6 @@
 	)
 	(label "XC1"
 		(at 48.26 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6978,7 +6896,6 @@
 	)
 	(label "P52"
 		(at 248.92 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6989,7 +6906,6 @@
 	)
 	(label "P36"
 		(at 121.92 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7000,7 +6916,6 @@
 	)
 	(label "SWDCLK"
 		(at 48.26 86.36 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7011,7 +6926,6 @@
 	)
 	(label "LNA_IN"
 		(at 152.4 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7022,7 +6936,6 @@
 	)
 	(label "DEC5"
 		(at 71.12 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7033,7 +6946,6 @@
 	)
 	(label "VBUS"
 		(at 269.24 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7044,7 +6956,6 @@
 	)
 	(label "XC2"
 		(at 48.26 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7055,7 +6966,6 @@
 	)
 	(label "DECUSB"
 		(at 154.94 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7066,7 +6976,6 @@
 	)
 	(label "nRESET"
 		(at 269.24 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7077,7 +6986,6 @@
 	)
 	(label "P17"
 		(at 114.3 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7088,7 +6996,6 @@
 	)
 	(label "DEC1"
 		(at 60.96 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7099,7 +7006,6 @@
 	)
 	(label "SPI4"
 		(at 231.14 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7110,7 +7016,6 @@
 	)
 	(label "VDD_nRF"
 		(at 213.36 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7121,7 +7026,6 @@
 	)
 	(label "DCC"
 		(at 139.7 190.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7132,7 +7036,6 @@
 	)
 	(label "SPICS0"
 		(at 223.52 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7143,7 +7046,6 @@
 	)
 	(label "ANT_IN"
 		(at 185.42 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7154,7 +7056,6 @@
 	)
 	(label "P11"
 		(at 48.26 121.92 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7166,7 +7067,6 @@
 	)
 	(label "P30"
 		(at 114.3 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7177,7 +7077,6 @@
 	)
 	(label "P34"
 		(at 114.3 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7188,7 +7087,6 @@
 	)
 	(label "XC1"
 		(at 88.9 175.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7199,7 +7097,6 @@
 	)
 	(label "P7"
 		(at 114.3 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7208,9 +7105,18 @@
 		)
 		(uuid "a14b0c71-7b8c-4c2d-88da-7d899ded38db")
 	)
+	(label "P15"
+		(at 269.24 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3288fdd-43e0-4d6d-9a2d-a990360e256d")
+	)
 	(label "SPI3"
 		(at 231.14 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7219,20 +7125,8 @@
 		)
 		(uuid "a3d4ebee-a554-40e0-b906-ec53af5821a2")
 	)
-	(label "SCL"
-		(at 119.38 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a660d6ae-c1cf-4c8a-89e0-f98ad95aaab4")
-	)
 	(label "P31"
 		(at 48.26 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7243,7 +7137,6 @@
 	)
 	(label "ANT_OUT"
 		(at 215.9 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7254,7 +7147,6 @@
 	)
 	(label "P23"
 		(at 248.92 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7265,7 +7157,6 @@
 	)
 	(label "P38"
 		(at 121.92 104.14 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7276,7 +7167,6 @@
 	)
 	(label "P17"
 		(at 248.92 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7287,7 +7177,6 @@
 	)
 	(label "nRESET"
 		(at 40.64 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7298,7 +7187,6 @@
 	)
 	(label "P34"
 		(at 248.92 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7309,7 +7197,6 @@
 	)
 	(label "NFC2"
 		(at 53.34 172.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7320,7 +7207,6 @@
 	)
 	(label "P42"
 		(at 248.92 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7331,7 +7217,6 @@
 	)
 	(label "P33"
 		(at 248.92 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7342,7 +7227,6 @@
 	)
 	(label "SPIHD"
 		(at 114.3 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7353,7 +7237,6 @@
 	)
 	(label "SPI2"
 		(at 231.14 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7364,7 +7247,6 @@
 	)
 	(label "SPICLK"
 		(at 114.3 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7375,7 +7257,6 @@
 	)
 	(label "P32"
 		(at 114.3 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7386,7 +7267,6 @@
 	)
 	(label "P42"
 		(at 114.3 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7397,7 +7277,6 @@
 	)
 	(label "SPI7"
 		(at 231.14 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7408,7 +7287,6 @@
 	)
 	(label "XC2"
 		(at 104.14 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7419,7 +7297,6 @@
 	)
 	(label "P38"
 		(at 248.92 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7430,7 +7307,6 @@
 	)
 	(label "VDD_nRF"
 		(at 241.3 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7441,7 +7317,6 @@
 	)
 	(label "P40"
 		(at 248.92 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7452,7 +7327,6 @@
 	)
 	(label "SPICS0"
 		(at 48.26 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7463,7 +7337,6 @@
 	)
 	(label "DCC"
 		(at 91.44 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7474,7 +7347,6 @@
 	)
 	(label "DEC4_6"
 		(at 137.16 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7485,7 +7357,6 @@
 	)
 	(label "LED_NET"
 		(at 269.24 142.24 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7496,7 +7367,6 @@
 	)
 	(label "SPIWP"
 		(at 223.52 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7507,7 +7377,6 @@
 	)
 	(label "P25"
 		(at 114.3 137.16 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7518,7 +7387,6 @@
 	)
 	(label "P39"
 		(at 48.26 124.46 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7529,7 +7397,6 @@
 	)
 	(label "VDD_SPI"
 		(at 223.52 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7540,7 +7407,6 @@
 	)
 	(label "P27"
 		(at 248.92 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7551,7 +7417,6 @@
 	)
 	(label "SPI6"
 		(at 231.14 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7562,7 +7427,6 @@
 	)
 	(label "P21"
 		(at 248.92 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7573,7 +7437,6 @@
 	)
 	(label "P19"
 		(at 114.3 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7582,20 +7445,8 @@
 		)
 		(uuid "d659227d-4a43-4dce-9bb0-69971e91678f")
 	)
-	(label "SCL"
-		(at 269.24 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d6da4c18-96bb-49b8-8a19-80045652bae6")
-	)
 	(label "P25"
 		(at 248.92 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7604,9 +7455,18 @@
 		)
 		(uuid "d8403270-bdf4-4358-abc9-98c494f391a1")
 	)
+	(label "P13"
+		(at 269.24 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d94f7baf-2469-4e70-acde-1360bf2cbc2a")
+	)
 	(label "SPID"
 		(at 223.52 22.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7617,7 +7477,6 @@
 	)
 	(label "P29"
 		(at 248.92 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7628,7 +7487,6 @@
 	)
 	(label "P19"
 		(at 248.92 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7639,7 +7497,6 @@
 	)
 	(label "SPIWP"
 		(at 114.3 121.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7650,7 +7507,6 @@
 	)
 	(label "P37"
 		(at 114.3 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7661,7 +7517,6 @@
 	)
 	(label "D+"
 		(at 48.26 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7672,7 +7527,6 @@
 	)
 	(label "DEC2"
 		(at 63.5 55.88 90)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7683,7 +7537,6 @@
 	)
 	(label "P35"
 		(at 114.3 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7694,7 +7547,6 @@
 	)
 	(label "SWDCLK"
 		(at 269.24 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7705,7 +7557,6 @@
 	)
 	(label "ANT_IN"
 		(at 170.18 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7716,7 +7567,6 @@
 	)
 	(label "P39"
 		(at 248.92 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7727,7 +7577,6 @@
 	)
 	(label "D-"
 		(at 269.24 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7738,7 +7587,6 @@
 	)
 	(label "LNA_IN"
 		(at 48.26 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7749,7 +7597,6 @@
 	)
 	(label "P30"
 		(at 248.92 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7760,7 +7607,6 @@
 	)
 	(label "D+"
 		(at 269.24 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7771,7 +7617,6 @@
 	)
 	(label "D-"
 		(at 48.26 96.52 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7783,7 +7628,6 @@
 	(hierarchical_label "SCL"
 		(shape output)
 		(at 271.78 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7795,7 +7639,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 271.78 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7807,7 +7650,6 @@
 	(hierarchical_label "RESET"
 		(shape input)
 		(at 271.78 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7819,7 +7661,6 @@
 	(hierarchical_label "VDD_nRF"
 		(shape input)
 		(at 271.78 22.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7831,7 +7672,6 @@
 	(hierarchical_label "P[0..52]"
 		(shape bidirectional)
 		(at 254 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7843,7 +7683,6 @@
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 271.78 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7855,7 +7694,6 @@
 	(hierarchical_label "SPI[0..7]"
 		(shape bidirectional)
 		(at 233.68 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7867,7 +7705,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 271.78 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7879,7 +7716,6 @@
 	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 271.78 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7891,7 +7727,6 @@
 	(hierarchical_label "SWDCLK"
 		(shape input)
 		(at 271.78 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7903,7 +7738,6 @@
 	(hierarchical_label "SWDIO"
 		(shape bidirectional)
 		(at 271.78 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7915,7 +7749,6 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 271.78 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
