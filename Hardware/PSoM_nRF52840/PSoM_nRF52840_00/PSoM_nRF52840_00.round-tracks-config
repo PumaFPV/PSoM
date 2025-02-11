@@ -1,0 +1,7 @@
+Default	True	2.0	3
+GND	True	2.0	3
+RF	True	2.0	3
+SPI	True	2.0	3
+UART	True	2.0	3
+USB	True	2.0	3
+False	True	False
