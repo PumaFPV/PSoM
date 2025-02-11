@@ -305,175 +305,6 @@
 				)
 			)
 		)
-		(symbol "Component lib:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 3.81 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -1.27) (xy 5.08 1.27) (xy 2.54 0) (xy 5.08 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -0.762) (xy -0.762 -2.286) (xy 0 -2.286) (xy -0.762 -2.286) (xy -0.762 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.032 -0.762) (xy 0.508 -2.286) (xy 1.27 -2.286) (xy 0.508 -2.286) (xy 0.508 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Component lib:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4201,16 +4032,6 @@
 		)
 		(uuid "5259551a-5ae0-4c3b-9108-7ebe5ce560c9")
 	)
-	(wire
-		(pts
-			(xy 269.24 129.54) (xy 269.24 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52984307-afa0-4972-9d25-7921097623c2")
-	)
 	(bus
 		(pts
 			(xy 254 68.58) (xy 254 71.12)
@@ -5473,16 +5294,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 139.7) (xy 269.24 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06b48dc-2c44-4971-af7a-ce2bbc699bb4")
-	)
-	(wire
-		(pts
 			(xy 180.34 119.38) (xy 180.34 121.92)
 		)
 		(stroke
@@ -5660,16 +5471,6 @@
 			(type default)
 		)
 		(uuid "ecbcbf1f-6deb-49d8-8013-97e0692cbed4")
-	)
-	(wire
-		(pts
-			(xy 269.24 149.86) (xy 269.24 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed07d27b-74df-49dd-a98b-11715a4a5851")
 	)
 	(bus
 		(pts
@@ -7324,16 +7125,6 @@
 			(justify right bottom)
 		)
 		(uuid "c4c9bf25-fbf5-4b7b-840e-8d939f6a6b24")
-	)
-	(label "LED_NET"
-		(at 269.24 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4d79e55-4e9b-4922-aeb5-19ad1ce16a58")
 	)
 	(label "SPIWP"
 		(at 223.52 33.02 180)
@@ -9047,85 +8838,6 @@
 			(project "PMK_Keyboard"
 				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
 					(reference "#PWR0428")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 269.24 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63f4db03-2902-4466-8341-9e957c78c566")
-		(property "Reference" "#PWR?"
-			(at 269.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 268.8062 155.575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "987ed64a-01fc-49e2-a62f-658c9d1a4fb8")
-		)
-		(instances
-			(project "nRF52840"
-				(path "/1055a12c-de3d-4753-aef1-2b6e803dd877"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "nRF52840"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-			(project "PMK_Keyboard"
-				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
-					(reference "#PWR0415")
 					(unit 1)
 				)
 			)
@@ -10886,88 +10598,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Component lib:LED")
-		(at 269.24 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7480da6-e4d9-4b93-9553-abada0581321")
-		(property "Reference" "D?"
-			(at 273.05 146.3674 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 273.05 148.9074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 269.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49cafdf5-065d-4e3e-83a8-560c09ab424e")
-		)
-		(pin "2"
-			(uuid "b2878a0c-e731-4c2d-bdd6-f631eb1fd3ad")
-		)
-		(instances
-			(project "nRF52840"
-				(path "/1055a12c-de3d-4753-aef1-2b6e803dd877"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-			(project "nRF52840"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
-					(reference "D461")
-					(unit 1)
-				)
-			)
-			(project "PMK_Keyboard"
-				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
-					(reference "D401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Component lib:R")
 		(at 241.3 127 0)
 		(unit 1)
@@ -11044,88 +10674,6 @@
 			(project "PMK_Keyboard"
 				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
 					(reference "R403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Component lib:R")
-		(at 269.24 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1af3b36-cd96-403d-bfb1-af00ad1755fd")
-		(property "Reference" "R?"
-			(at 271.78 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2k"
-			(at 271.78 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 267.462 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 269.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09d251a8-41b5-4d6b-92ea-2205f75cd138")
-		)
-		(pin "2"
-			(uuid "b5760a97-3c7b-4dbc-82b8-88f0f1d4d602")
-		)
-		(instances
-			(project "nRF52840"
-				(path "/1055a12c-de3d-4753-aef1-2b6e803dd877"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "nRF52840"
-				(path "/14b8af2e-80ef-48c8-890f-5f81b4faa854/f0612286-54f9-458a-949b-e71e3a4da5eb"
-					(reference "R462")
-					(unit 1)
-				)
-			)
-			(project "PMK_Keyboard"
-				(path "/c3b08055-08a5-4979-9bf8-f36ab0917722/38b3fafb-a86a-4dac-a282-53c1331aa596"
-					(reference "R402")
 					(unit 1)
 				)
 			)
