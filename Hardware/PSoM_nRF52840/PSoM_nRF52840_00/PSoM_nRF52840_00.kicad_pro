@@ -525,7 +525,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.09,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.25,
@@ -535,7 +535,7 @@
         "name": "RF",
         "pcb_color": "rgb(217, 208, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.1359,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
@@ -619,20 +619,16 @@
         "pattern": "/100_Connectors/RX0"
       },
       {
-        "netclass": "RF",
-        "pattern": "/400_ESP32/LNA_IN"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "/400_ESP32/ANT"
-      },
-      {
         "netclass": "USB",
         "pattern": "/100_Connectors/D+"
       },
       {
         "netclass": "USB",
         "pattern": "/100_Connectors/D-"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/400-nRF52840/ANT_*"
       }
     ]
   },
